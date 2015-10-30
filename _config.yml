@@ -1,27 +1,28 @@
 # Site wide configuration
 
-title:            Site Title
+title:            Home
 locale:           en_US
-url:
+url:              "https://mirca.github.io"
 
 
 # Jekyll configuration
 
 permalink:   /:categories/:title/
 markdown:    kramdown
-highlighter: pygments
+highlighter: rouge
 sass:
   sass_dir: _sass
   style: compressed
 gems:
   - jekyll-sitemap
+  - jekyll-gist
 
 kramdown:
   auto_ids: true
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..6
-  use_coderay: false
+  enable_coderay: false
 
 
 # Octopress
@@ -40,12 +41,12 @@ titlecase: true
 
 # Site owner
 owner:
-  name: Your Name
-  avatar: bio-photo.jpg
-  bio: "Describe your self."
-  email:
-  disqus-shortname:
-  twitter: #username
+  name: Zé Vinícius
+  avatar: https://raw.githubusercontent.com/mirca/mirca.github.io/master/images/ze.jpg
+  bio: "O Captain! My Captain!"
+  email: jvmirca@gmail.com
+  disqus-shortname: mirca-1
+  twitter: mircaze
   facebook: #username
   google:
     plus: #username
@@ -54,9 +55,9 @@ owner:
     ad-client:
     ad-slot:
   bing-verify:
-  github: #username
+  github: mirca
   stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
-  linkedin: #username
+  linkedin: #jose-vinicius-de-miranda-cardoso-72471a82
   xing: #username
   instagram: #username
   lastfm: #username
@@ -73,3 +74,5 @@ owner:
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
+
+comments: true

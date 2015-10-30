@@ -1,25 +1,39 @@
 ---
 layout: page
-title: About the Theme
-tags: [about, Jekyll, theme, responsive]
+title: About
+tags: [about]
 modified: 2014-08-08T20:53:07.573882-04:00
-comments: true
+comments: false
 image:
-  feature: sample-image-2.jpg
-  credit: WeGraphics
-  creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
+  feature: juno.jpg
+  credit: NASA JPL.
 ---
+<p style='text-align: justify;'>
+Hi there, I'm <b>Zé</b>!
+<br><br>
+I'm an undergraduate student pursing Electrical Engineering at the Federal University of Campina Grande, Brazil. Since my first year in college, I've been with the Institute for Advanced Studies in Communications as an undergraduate research assistant working with image processing and communications.
+</p>
 
-Minimal Mistakes is responsive Jekyll theme with large featured images and solid typography. As the name implies the styling is fairly minimal to make it easier for you to build on top of.
+<p style='text-align: justify;'>
+In 2014, I was awarded by the Brazilian Scientific Mobility Program a scholarship to study one year abroad in The Catholic University of America, DC, USA. In that opportunity, I was privileged to take a variety of classes among which my favorites were Stochastic Processes, Information Theory, and Estimation and Detection Theory which are at the core of Machine Learning and Probabilistic algorithms.
+</p>
 
-## Minimal Mistakes is all about:
+<p style='text-align: justify;'>
+In the Summer of 2015, I worked as an undergraduate guest researcher with Marcelo Davanço, in the Nanofabrication Research Group, National Institute of Standards and Technology, USA. In that opportunity, I wrote MATLAB code for single molecule localization microscopy and fluorescense localization imaging microscopy. More precisely, I developed Maximum Likelihood Estimators (along with Fisher Information Matrix) in order to localize and measure the brightness of nanoemitters.
+</p>
 
-* Responsive templates. Looking good on mobile, tablet, and desktop.
-* Gracefully degrading in older browsers. Compatible with Internet Explorer 8+ and all modern browsers.
-* Minimal embellishments -- content first.
-* Optional large feature images for posts and pages.
-* Simple and clear permalink structure.
-* [Custom 404 page](http://mmistakes.github.io/minimal-mistakes/404.html) to get you started.
-* Support for Disqus Comments
+<p style='text-align: justify;'>
+In the Spring of 2016, I held a teaching assistant scholarship for the course of Probability and Statistics for Electrical Engineering and Computer Science. Besides helping students understand basics concepts of probability theory during office hours, I also gave weekly lectures during which I solved exercises together with the students.
+</p>
 
-<a markdown="0" href="{{ site.url }}/theme-setup" class="btn">Install Minimal Mistakes Theme</a>
+<p style='text-align: justify;'>
+During the Summer of 2016, I was a student software developer for the Astropy Project under the Google Summer of Code program. In that occasion, I developed Python code for point spread function fitting photometry. I was mentored by Hans Moritz Gunther, Brigitta Sipocz, and Erik Tollerud.
+</p>
+
+<p style='text-align: justify;'>
+Besides loving mathematics, physics, and programming. I also love a good coffee, chess, running, and soccer.
+</p>
+
+<p style='text-align: justify;'>
+Beginning 2017, I started as an intern for the Kepler/K2 Guest Observer Office at NASA Ames, Silicon Valley, working on data analysis problems together with <a href="http://geert.io">Geert Barentsen</a>.
+</p>
