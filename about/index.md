@@ -37,3 +37,6 @@ Besides loving mathematics, physics, and programming. I also love a good coffee,
 <p style='text-align: justify;'>
 Beginning 2017, I started as an intern for the Kepler/K2 Guest Observer Office at NASA Ames, Silicon Valley, working on data analysis problems together with <a href="http://geert.io">Geert Barentsen</a>.
 </p>
+
+I was featured IEEE Student of the Week in the <a href="https://www.facebook.com/IEEEStudents/photos/a.285696968155912.70076.236454509746825/769475893111348/?type=1&theater">IEEE Students Facebook webpage</a>. \o/
+
