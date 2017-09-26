@@ -18,11 +18,15 @@ In this setting, $$\lambda_i$$, $$i=1, 2, ..., n$$ are called parametric models.
 
 The likelihood function is can be expressed as:
 
-\begin{align}
-P_{\theta}(Y^{n} = y^{n}) = \prod_{i=1}^{n} p_{\theta}(y_i) \\
-P_{\theta}(Y^{n} = y^{n}) = \prod_{i=1}^{n} \exp{-\lambda_i(\theta)}\dfrac{\lambda_i^{y_i}(\theta)}{y_i!} \\
+\begin{equation}
+P_{\theta}(Y^{n} = y^{n}) = \prod_{i=1}^{n} p_{\theta}(y_i)
+\end{equation}
+\begin{equation}
+P_{\theta}(Y^{n} = y^{n}) = \prod_{i=1}^{n} \exp{-\lambda_i(\theta)}\dfrac{\lambda_i^{y_i}(\theta)}{y_i!}
+\end{equation}
+\begin{equation}
 P_{\theta}(Y^{n} = y^{n}) = \exp{-\sum_{i=1}^{n}\lambda_i(\theta)}\prod_{i=1}^{n}\dfrac{\lambda_i^{y_i}(\theta)}{y_i!}
-\end{align}
+\end{equation}
 
 Taking the Naperian logarithm of $$P_{\theta}(Y^{n} = y^{n})$$, it follows that:
 
