@@ -34,3 +34,12 @@ The Maximum Likelihood Estimator is the solution of the following optimization p
 \begin{align}
 \arg \max_{\theta \in \Theta} \log P_{\theta}(Y^{n}) & = \arg \min_{\theta \in \Theta} - \log P_{\theta}(Y^{n} = y^{n}) \\\\ \arg \max_{\theta \in \Theta} \log P_{\theta}(Y^{n}) & = \arg \min_{\theta \in \Theta} \sum_{i=1}^{n}\left(\lambda_i(\theta) - y_i\log\lambda_i(\theta)\right)
 \end{align}
+
+
+To solve $$\arg \min_{\theta \in \Theta} \sum_{i=1}^{n}\left(\lambda_i(\theta)$$ is necessary to solve the following set of differential equations
+
+\begin{align}
+\dfrac{\partial}{\partial \theta_j} \log P_{\theta}(Y^{n} = y^{n}) = 0, j=1, 2, ..., m \\\\
+\sum_{i=1}^{n}\left(\dfrac{\partial}{\partial \theta_j}\lambda_i(\theta) - \dfrac{y_i}{\lambda_i(\theta)}\dfrac{\partial}{\partial \theta_j}\lambda_i(\theta)\right) = 0, j=1, 2, ..., m
+
+\end{align}
