@@ -43,7 +43,7 @@ $$
 \end{align}
 $$
 
-for $$ j=1, 2, ..., m$$. In other words, we need to find $$\theta^{*} \in |Theta$$ such that the above statements are verified to be true.
+for $$ j=1, 2, ..., m$$. In other words, we need to find $$\hat{\theta} \in |Theta$$ such that the above statements are verified to be true.
 
 We can't get any further unless we make some considerations about the parametric model $$\lambda_i$$ and the parameter space.
 
@@ -66,4 +66,4 @@ $$
 \end{align}
 $$
 
-The mathematical result above tells us that the total flux is exactly estimated by our model $$\lambda_i$$ at the solution $$\theta^{*}$$.
+The mathematical result above tells us that the total flux is exactly estimated by our model $$\lambda_i$$ at the solution $$\hat{\theta}$$.
