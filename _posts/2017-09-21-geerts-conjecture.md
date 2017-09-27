@@ -10,7 +10,7 @@ image:
   credit: Hubble Space Telescope
 ---
 
-Assume you perform an experiment that returns $n$ Poisson distributed random variables $$Y^{n}
+Assume you perform an experiment that returns $$n$$ Poisson distributed random variables $$Y^{n}
 \triangleq \{Y_i\}_{i=1}^{n}$$ each of which has mean $$\lambda_i(\theta)$$, where
 $$\theta$$ is a vector of parameters which belongs to some $$\Theta$$ called parameter space.
 In this setting, $$\{\lambda_i\}_{i=1}^{n}$$ are called parametric models.
