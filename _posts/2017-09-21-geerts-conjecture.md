@@ -19,7 +19,7 @@ The likelihood function can be expressed as:
 
 $$
 \begin{align}
-P_{\theta}(Y^{n} = y^{n}) & = \prod_{i=1}^{n} p_{\theta}(y_i) \\\\ P_{\theta}(Y^{n} = y^{n}) & = \prod_{i=1}^{n} \exp{-\lambda_i(\theta)}\dfrac{\lambda_i^{y_i}(\theta)}{y_i!} \\\\ P_{\theta}(Y^{n} = y^{n}) & = \exp\left({-\sum_{i=1}^{n}\lambda_i(\theta)}\right)\prod_{i=1}^{n}\dfrac{\lambda_i^{y_i}(\theta)}{y_i!}
+P_{\theta}(Y^{n} = y^{n}) & = \prod_{i=1}^{n} p_{\theta}(y_i) \\ P_{\theta}(Y^{n} = y^{n}) & = \prod_{i=1}^{n} \exp{-\lambda_i(\theta)}\dfrac{\lambda_i^{y_i}(\theta)}{y_i!} \\ P_{\theta}(Y^{n} = y^{n}) & = \exp\left({-\sum_{i=1}^{n}\lambda_i(\theta)}\right)\prod_{i=1}^{n}\dfrac{\lambda_i^{y_i}(\theta)}{y_i!}
 \end{align}
 $$
 
