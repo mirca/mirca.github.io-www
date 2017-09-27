@@ -39,9 +39,10 @@ To solve $$\arg \max_{\theta \in \Theta} \log P_{\theta}(Y^{n})$$ is necessary t
 
 $$
 \begin{align}
-\dfrac{\partial}{\partial \theta_j} \log P_{\theta}(Y^{n} = y^{n}) = 0 \\ \sum_{i=1}^{n}\left(\dfrac{\partial}{\partial \theta_j}\lambda_i(\theta) - \dfrac{y_i}{\lambda_i(\theta)}\dfrac{\partial \lambda_i(\theta)}{\partial \theta_j}\right) = 0 \\ \sum_{i=1}^{n}\dfrac{\partial \lambda_i(\theta)}{\partial \theta_j}\left(1 - \dfrac{y_i}{\lambda_i(\theta)} \right) = 0 \
+\dfrac{\partial}{\partial \theta_j} \log P_{\theta}(Y^{n} = y^{n}) = 0 \\ \sum_{i=1}^{n}\left(\dfrac{\partial}{\partial \theta_j}\lambda_i(\theta) - \dfrac{y_i}{\lambda_i(\theta)}\dfrac{\partial \lambda_i(\theta)}{\partial \theta_j}\right) = 0 \\ \sum_{i=1}^{n}\dfrac{\partial \lambda_i(\theta)}{\partial \theta_j}\left(1 - \dfrac{y_i}{\lambda_i(\theta)} \right) = 0 ~~~~~~~~~~~(1)
 \end{align}
 $$
+
 for $$ j=1, 2, ..., m$$.
 
 We can't get any further unless we make some considerations about the parametric model $$\lambda_i$$ and the parameter space.
@@ -53,3 +54,13 @@ It is also practical to assume that the rate of change of the expected number of
 $$
 \dfrac{\partial{\lambda_i(\theta)}}{\partial A} = \alpha \lambda_i(\theta)
 $$
+
+Substituting this assumption in our set of equations above, it follows that
+$$
+\begin{align}
+\sum_{i=1}^{n} \alpha \lambda_i(\theta)\left(1 - \dfrac{y_i}{\lambda_i(\theta)} \right) & = 0 \\
+\sum_{i=1}^{n} \lambda_i(\theta) & = \sum_{i=1}^{n} \lambda_i(\theta)
+\end{align}
+$$
+
+
