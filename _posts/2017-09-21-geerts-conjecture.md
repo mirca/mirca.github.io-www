@@ -66,4 +66,4 @@ $$
 \end{align}
 $$
 
-The mathematical result above tells us that the total flux is exactly estimated by our model $$\lambda_i$$ provided that we can find $$\theta^{*}$$.
+The mathematical result above tells us that the total flux is exactly estimated by our model $$\lambda_i$$ at the solution $$\theta^{*}$$.
