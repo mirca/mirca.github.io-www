@@ -39,7 +39,7 @@ To solve $$\arg \max_{\theta \in \Theta} \log P_{\theta}(Y^{n})$$ is necessary t
 
 $$
 \begin{align}
-\dfrac{\partial}{\partial \theta_j} \log P_{\theta}(Y^{n} = y^{n})\Bigr|_{\substack{\theta=\hat{\theta}}} = 0 \\ \sum_{i=1}^{n}\left(\dfrac{\partial}{\partial \theta_j}\lambda_i(\theta) - \dfrac{y_i}{\lambda_i(\theta)}\dfrac{\partial \lambda_i(\theta)}{\partial \theta_j}\right) = 0 \\ \sum_{i=1}^{n}\dfrac{\partial \lambda_i(\theta)}{\partial \theta_j}\left(1 - \dfrac{y_i}{\lambda_i(\theta)} \right) &= 0 ~~~~~~~~~~~(1)
+\dfrac{\partial}{\partial \theta_j} \log P_{\theta}(Y^{n} = y^{n})\Bigr|_{\substack{\theta=\hat{\theta}}} &= 0 \\ \sum_{i=1}^{n}\left(\dfrac{\partial}{\partial \theta_j}\lambda_i(\theta) - \dfrac{y_i}{\lambda_i(\theta)}\dfrac{\partial \lambda_i(\theta)}{\partial \theta_j}\right)\Bigr|_{\substack{\theta=\hat{\theta}}} &= 0 \\ \sum_{i=1}^{n}\dfrac{\partial \lambda_i(\theta)}{\partial \theta_j}\left(1 - \dfrac{y_i}{\lambda_i(\theta)} \right)\Bigr|_{\substack{\theta=\hat{\theta}}} &= 0 ~~~~~~~~~~~(1)
 \end{align}
 $$
 
