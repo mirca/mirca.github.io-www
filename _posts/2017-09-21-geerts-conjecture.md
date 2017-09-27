@@ -55,6 +55,8 @@ $$
 \dfrac{\partial{\lambda_i(\theta)}}{\partial A} = \alpha \lambda_i(\theta)
 $$
 
+for some non-zero constant $$ alpha $$.
+
 Substituting this assumption in our set of equations above, it follows that
 $$
 \begin{align}
