@@ -61,8 +61,8 @@ Substituting this assumption in our set of equations above, it follows that
 
 $$
 \begin{align}
-\sum_{i=1}^{n} \alpha \lambda_i(\theta)\left(1 - \dfrac{y_i}{\lambda_i(\theta)} \right) & = 0 \\
-\sum_{i=1}^{n} \lambda_i(\theta) & = \sum_{i=1}^{n} y_i
+\sum_{i=1}^{n} \alpha \lambda_i(\hat{\theta})\left(1 - \dfrac{y_i}{\lambda_i(\hat{\theta})} \right) & = 0 \\
+\sum_{i=1}^{n} \lambda_i(\hat{\theta}) & = \sum_{i=1}^{n} y_i
 \end{align}
 $$
 
