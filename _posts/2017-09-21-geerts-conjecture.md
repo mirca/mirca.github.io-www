@@ -39,6 +39,17 @@ To solve $$\arg \max_{\theta \in \Theta} \log P_{\theta}(Y^{n})$$ is necessary t
 
 $$
 \begin{align}
-\dfrac{\partial}{\partial \theta_j} \log P_{\theta}(Y^{n} = y^{n}) = 0, j=1, 2, ..., m \\ \sum_{i=1}^{n}\left(\dfrac{\partial}{\partial \theta_j}\lambda_i(\theta) - \dfrac{y_i}{\lambda_i(\theta)}\dfrac{\partial}{\partial \theta_j}\lambda_i(\theta)\right)
+\dfrac{\partial}{\partial \theta_j} \log P_{\theta}(Y^{n} = y^{n}) = 0 \\ \sum_{i=1}^{n}\left(\dfrac{\partial}{\partial \theta_j}\lambda_i(\theta) - \dfrac{y_i}{\lambda_i(\theta)}\dfrac{\partial \lambda_i(\theta)}{\partial \theta_j}\right) = 0 \\ \sum_{i=1}^{n}\dfrac{\partial \lambda_i(\theta)}{\partial \theta_j}\left(1 - \dfrac{y_i}{\lambda_i(\theta)} \right) = 0 \
 \end{align}
+$$
+for $$ j=1, 2, ..., m$$.
+
+We can't get any further unless we make some considerations about the parametric model $$\lambda_i$$ and the parameter space.
+
+In some problems, such as [point spread function photometry](https://photutils.readthedocs.io/en/stable/photutils/psf.html) and [single molecule localization microscopy](http://q-bio.org/w/images/1/1d/SR_review2.pdf), one is interested in estimating the total light flux emitted by a star (or a molecule) and its subpixel position in a detector. Therefore, our parameter vector can be written as $$\theta = (A, x_o, y_o)$$.
+
+It is also practical to assume that the rate of change of the expected number of counts, in the $$i$$-th pixel, with respect to the total integrated flux is proportional to itself. Mathetically,
+
+$$
+\dfrac{\partial{\lambda_i(\theta)}}{\partial A} = \alpha \lambda_i(\theta)
 $$
