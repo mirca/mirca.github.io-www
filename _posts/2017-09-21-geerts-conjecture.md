@@ -10,10 +10,9 @@ image:
   credit: Hubble Space Telescope
 ---
 
-Assume you perform an experiment that returns $$n$$ Poisson distributed random variables $$Y^{n}
+Assume you perform an experiment that returns $n$ Poisson distributed random variables $$Y^{n}
 \triangleq \{Y_i\}_{i=1}^{n}$$ each of which has mean $$\lambda_i(\theta)$$, where
-$$\theta$$ is a vector of parameters which belongs to some [compact space](https://en.wikipedia.org/wiki/Compact_space)
-$$\Theta$$ called parameter space.
+$$\theta$$ is a vector of parameters which belongs to some $$\Theta$$ called parameter space.
 In this setting, $$\{\lambda_i\}_{i=1}^{n}$$ are called parametric models.
 
 The likelihood function can be expressed as:
@@ -21,7 +20,7 @@ The likelihood function can be expressed as:
 \begin{align}
 P_{\theta}(Y^{n} = y^{n}) & = \prod_{i=1}^{n} p_{\theta}(y_i) \\\\
 P_{\theta}(Y^{n} = y^{n}) & = \prod_{i=1}^{n} \exp{-\lambda_i(\theta)}\dfrac{\lambda_i^{y_i}(\theta)}{y_i!} \\\\
-P_{\theta}(Y^{n} = y^{n}) & = \exp{-\sum_{i=1}^{n}\lambda_i(\theta)}\prod_{i=1}^{n}\dfrac{\lambda_i^{y_i}(\theta)}{y_i!}
+P_{\theta}(Y^{n} = y^{n}) & = \exp\left({-\sum_{i=1}^{n}\lambda_i(\theta)}\right)\prod_{i=1}^{n}\dfrac{\lambda_i^{y_i}(\theta)}{y_i!}
 \end{align}
 
 Taking the Naperian logarithm of $$P_{\theta}(Y^{n} = y^{n})$$, it follows that:
@@ -32,9 +31,7 @@ Taking the Naperian logarithm of $$P_{\theta}(Y^{n} = y^{n})$$, it follows that:
 
 The Maximum Likelihood Estimator is the solution of the following optimization problem:
 
-\begin{equation}
-\arg \max_{\theta \in |Theta} \log P_{\theta}(Y^{n} = - \arg \min_{\theta \in |Theta} \log P_{\theta}(Y^{n}
-\end{equation}
-\begin{equation}
-\arg \max_{\theta \in |Theta} \log P_{\theta}(Y^{n} = \arg \min_{\theta \in |Theta} \sum_{i=1}^{n}\left(y_i\log\lambda_i(\theta) - \lambda_i(\theta)\right)
-\end{equation}
+\begin{align}
+\arg \max_{\theta \in \Theta} \log P_{\theta}(Y^{n}) & = - \arg \min_{\theta \in \Theta} \log P_{\theta}(Y^{n} = y^{n}) \\\\
+\arg \max_{\theta \in \Theta} \log P_{\theta}(Y^{n}) & = \arg \min_{\theta \in \Theta} \sum_{i=1}^{n}\left(y_i\log\lambda_i(\theta) - \lambda_i(\theta)\right)
+\end{align}
