@@ -26,11 +26,11 @@ $$
 Taking the Naperian logarithm of $$P_{\theta}(Y^{n} = y^{n})$$, it follows that:
 
 \begin{align}
-\log P_{\theta}(Y^{n} = y^{n}) = - \sum_{i=1}^{n}\left(\lambda_i(\theta) + y_i\log\lambda_i(\theta) - \log y_i !\right)
+\log P_{\theta}(Y^{n} = y^{n}) = \sum_{i=1}^{n}\left(- \lambda_i(\theta) + y_i\log\lambda_i(\theta) - \log y_i !\right)
 \end{align}
 
 The Maximum Likelihood Estimator is the solution of the following optimization problem:
 
 \begin{align}
-\arg \max_{\theta \in \Theta} \log P_{\theta}(Y^{n}) & = - \arg \min_{\theta \in \Theta} \log P_{\theta}(Y^{n} = y^{n}) \\\\ \arg \max_{\theta \in \Theta} \log P_{\theta}(Y^{n}) & = \arg \min_{\theta \in \Theta} \sum_{i=1}^{n}\left(y_i\log\lambda_i(\theta) - \lambda_i(\theta)\right)
+\arg \max_{\theta \in \Theta} \log P_{\theta}(Y^{n}) & = \arg \min_{\theta \in \Theta} - \log P_{\theta}(Y^{n} = y^{n}) \\\\ \arg \max_{\theta \in \Theta} \log P_{\theta}(Y^{n}) & = \arg \min_{\theta \in \Theta} \sum_{i=1}^{n}\left(\lambda_i(\theta) - y_i\log\lambda_i(\theta)\right)
 \end{align}
