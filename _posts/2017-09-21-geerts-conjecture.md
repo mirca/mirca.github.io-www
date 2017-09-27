@@ -39,7 +39,6 @@ To solve $$\arg \max_{\theta \in \Theta} \log P_{\theta}(Y^{n})$$ is necessary t
 
 $$
 \begin{align}
-\dfrac{\partial}{\partial \theta_j} \log P_{\theta}(Y^{n} = y^{n}) = 0, j=1, 2, ..., m \\\\
-\sum_{i=1}^{n}\left(\dfrac{\partial}{\partial \theta_j}\lambda_i(\theta) - \dfrac{y_i}{\lambda_i(\theta)}\dfrac{\partial}{\partial \theta_j}\lambda_i(\theta)\right) = 0, j=1, 2, ..., m
-$$
+\dfrac{\partial}{\partial \theta_j} \log P_{\theta}(Y^{n} = y^{n}) = 0, j=1, 2, ..., m \\ \sum_{i=1}^{n}\left(\dfrac{\partial}{\partial \theta_j}\lambda_i(\theta) - \dfrac{y_i}{\lambda_i(\theta)}\dfrac{\partial}{\partial \theta_j}\lambda_i(\theta)\right)
 \end{align}
+$$
