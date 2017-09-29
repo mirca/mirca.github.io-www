@@ -25,9 +25,9 @@ In the past years, I've been involved with open source software development prim
 
 Here is a list of projects I'm more involved with:
 
-* <a href="https://github.com/keplergo/pyke">PyKE</a>: A suite of Python tools to analyze Kepler/K2 data
-* <a href="https://github.com/mirca/oktopus">Oktopus</a>: A soft-bodied, eight-armed package for beautiful inference
 * <a href="https://github.com/astropy/astropy">astropy</a>: A community Python library for Astronomy
 * <a href="https://github.com/astropy/photutils">photutils</a>: Image photometry in Python
+* <a href="https://github.com/keplergo/pyke">pyke</a>: A suite of Python tools to analyze Kepler/K2 data
+* <a href="https://github.com/mirca/oktopus">oktopus</a>: A soft-bodied, eight-armed package for beautiful inference
 
 I've been also contributing code for <a href="https://github.com/numpy/numpy">numpy</a>, <a href="https://github.com/scipy/scipy">scipy</a>, <a href="https://github.com/scikit-optimize/scikit-optimize">scikit-optimize</a>, and many others.
