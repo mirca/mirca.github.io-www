@@ -9,7 +9,7 @@ image:
 
 Hello World!
 
-I love Python and I love the fact that nowadays Python is being used in science more than ever!
+I love Python and I love the fact that nowadays Python is being used in science and engineering more than <a href="https://spectrum.ieee.org/computing/software/the-2017-top-programming-languages">ever</a>!
 Python has a mature set of general purposes libraries that help scientists extract the
 best out of their data.
 
