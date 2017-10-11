@@ -10,12 +10,12 @@ image:
   credit: Hubble Space Telescope
 ---
 
-Assume you perform an experiment that returns $$n$$ Poisson distributed random variables $$Y^{n}
+Assume you perform an experiment that returns $$n$$ independent **not** identically distributed Poisson random variables $$Y^{n}
 \triangleq \{Y_i\}_{i=1}^{n}$$ each of which has mean $$\lambda_i(\theta)$$, where
-$$\theta$$ is a vector of parameters which belongs to some $$\Theta$$ called parameter space.
+$$\theta$$ is a vector of parameters which belongs to some set $$\Theta \subseteq \mathbb{R}^m$$ called parameter space.
 In this setting, $$\{\lambda_i\}_{i=1}^{n}$$ are called parametric models.
 
-The likelihood function can be expressed as:
+The likelihood function can be expressed as
 
 $$
 \begin{align}
@@ -23,19 +23,19 @@ P_{\theta}(Y^{n} = y^{n}) & = \prod_{i=1}^{n} p_{\theta}(y_i) = \prod_{i=1}^{n} 
 \end{align}
 $$
 
-Taking the Naperian logarithm of $$P_{\theta}(Y^{n} = y^{n})$$, it follows that:
+Taking the natural logarithm of $$P_{\theta}(Y^{n} = y^{n})$$, it follows that
 
 \begin{align}
 \log P_{\theta}(Y^{n} = y^{n}) = \sum_{i=1}^{n}\left(- \lambda_i(\theta) + y_i\log\lambda_i(\theta) - \log y_i !\right)
 \end{align}
 
-The Maximum Likelihood Estimator is the solution of the following optimization problem:
+The Maximum Likelihood Estimator can be stated as the solution of the following optimization problem
 
 \begin{align}
 \arg \max_{\theta \in \Theta} \log P_{\theta}(Y^{n}) & = \arg \min_{\theta \in \Theta} - \log P_{\theta}(Y^{n} = y^{n}) \\\\ \arg \max_{\theta \in \Theta} \log P_{\theta}(Y^{n}) & = \arg \min_{\theta \in \Theta} \sum_{i=1}^{n}\left(\lambda_i(\theta) - y_i\log\lambda_i(\theta)\right)
 \end{align}
 
-To solve $$\arg \max_{\theta \in \Theta} \log P_{\theta}(Y^{n})$$ is necessary to solve the following set of equations
+To solve $$\arg \max_{\theta \in \Theta} \log P_{\theta}(Y^{n})$$ is necessary to solve the following set of equations (let's talk about 2nd order derivatives and regularization conditions later)
 
 $$
 \begin{align}
@@ -43,9 +43,9 @@ $$
 \end{align}
 $$
 
-for $$ j=1, 2, ..., m$$. In other words, we need to find $$\hat{\theta} \in \Theta$$ such that the above statements are verified to be true.
+for $$ j=1, 2, ..., m$$. In other words, we need to find $$\theta^{*} \in \Theta$$ such that the above statements are verified to be true.
 
-We can't get any further unless we make some considerations about the parametric model $$\lambda_i$$ and the parameter space.
+We can't get any further unless we make some assumptions about the parametric model $$\lambda_i$$ and the parameter space.
 
 In some problems, such as [point spread function photometry](https://photutils.readthedocs.io/en/stable/photutils/psf.html) and [single molecule localization microscopy](http://q-bio.org/w/images/1/1d/SR_review2.pdf), one is interested in estimating the total light flux emitted by a star (or a molecule) and its subpixel position in a detector. Therefore, our parameter vector can be written as $$\theta = (A, c_o, r_o)$$.
 
@@ -61,9 +61,9 @@ Substituting this assumption in (1), it follows that
 
 $$
 \begin{align}
-\sum_{i=1}^{n} \alpha \lambda_i(\hat{\theta})\left(1 - \dfrac{y_i}{\lambda_i(\hat{\theta})} \right) & = 0 \\
-\sum_{i=1}^{n} \lambda_i(\hat{\theta}) & = \sum_{i=1}^{n} y_i
+\sum_{i=1}^{n} \alpha \lambda_i({\theta}^{*})\left(1 - \dfrac{y_i}{\lambda_i({\theta}^{*})} \right) & = 0 \\
+\sum_{i=1}^{n} \lambda_i({\theta}^{*}) & = \sum_{i=1}^{n} y_i
 \end{align}
 $$
 
-The mathematical result above tells us that the total flux is exactly estimated by our model $$\lambda_i$$ at the solution $$\hat{\theta}$$.
+The mathematical result above tells us that the total flux is exactly estimated by our model $$\lambda_i$$ at the solution $${\theta^{*}}$$.
