@@ -8,7 +8,7 @@ excerpt: "A List of Publications"
 
 ## Journals
 
-* <p style='text-align: justify;'> DAVANCO, M., I., LIU, J., SAPIENZA, L., ZHANG, C. Z., <b>CARDOSO, J., V., M.</b>, VERMA, V., MIRIN, R., NAM, S. W, SRINIVASAN, K. <b>Heterogeneous integration for on-chip quantum photonic circuits with single quantum dot devices</b>. <i>To appear in Nature Communications. Preprint: <a href="https://arxiv.org/abs/1611.07654">arxiv.org/abs/1611.07654</a></i></p>
+* <p style='text-align: justify;'> DAVANCO, M., I., LIU, J., SAPIENZA, L., ZHANG, C. Z., <b>CARDOSO, J., V., M.</b>, VERMA, V., MIRIN, R., NAM, S. W, SRINIVASAN, K. <b>Heterogeneous integration for on-chip quantum photonic circuits with single quantum dot devices</b>. <i>Nature Communications. <a href="https://www.nature.com/articles/s41467-017-00987-6.pdf">https://www.nature.com/articles/s41467-017-00987-6.pdf</a></i></p>
 
 * <p style='text-align: justify;'> LIU, J., DAVANCO, M., I., SAPIENZA, L., KONTHASINGHE, K., <b>CARDOSO, J., V., M.</b>, SONG, D., J., BADOLATO, A., SRINIVASAN, K. <b> Cryogenic photoluminescence imaging system for nanoscale positioning of single quantum emitters</b>. <i> Review of Scientific Instruments. <a href="http://aip.scitation.org/doi/full/10.1063/1.4976578">http://aip.scitation.org/doi/full/10.1063/1.4976578</a></i></p>
 
