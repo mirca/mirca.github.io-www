@@ -39,7 +39,7 @@ To solve $$\arg \max_{\theta \in \Theta} \log P_{\theta}(Y^{n})$$ is necessary t
 
 $$
 \begin{align}
-\dfrac{\partial}{\partial \theta_j} \log P_{\theta}(Y^{n} = y^{n})\Bigr|_{\substack{\theta=\hat{\theta}}} &= 0 \\ \sum_{i=1}^{n}\left(\dfrac{\partial \lambda_i(\theta)}{\partial \theta_j} - \dfrac{y_i}{\lambda_i(\theta)}\dfrac{\partial \lambda_i(\theta)}{\partial \theta_j}\right)\Bigr|_{\substack{\theta=\hat{\theta}}} &= 0 \\ \sum_{i=1}^{n}\dfrac{\partial \lambda_i(\theta)}{\partial \theta_j}\left(1 - \dfrac{y_i}{\lambda_i(\theta)} \right)\Bigr|_{\substack{\theta=\hat{\theta}}} &= 0 ~~~~~~~~~~~(1)
+\dfrac{\partial}{\partial \theta_j} \log P_{\theta}(Y^{n} = y^{n})\Bigr|_{\substack{\theta=\theta^{*}}} &= 0 \\ \sum_{i=1}^{n}\left(\dfrac{\partial \lambda_i(\theta)}{\partial \theta_j} - \dfrac{y_i}{\lambda_i(\theta)}\dfrac{\partial \lambda_i(\theta)}{\partial \theta_j}\right)\Bigr|_{\substack{\theta=\theta^{*}}} &= 0 \\ \sum_{i=1}^{n}\dfrac{\partial \lambda_i(\theta)}{\partial \theta_j}\left(1 - \dfrac{y_i}{\lambda_i(\theta)} \right)\Bigr|_{\substack{\theta=\theta^{*}}} &= 0 ~~~~~~~~~~~(1)
 \end{align}
 $$
 
@@ -47,9 +47,9 @@ for $$ j=1, 2, ..., m$$. In other words, we need to find $$\theta^{*} \in \Theta
 
 We can't get any further unless we make some assumptions about the parametric model $$\lambda_i$$ and the parameter space.
 
-In some problems, such as [point spread function photometry](https://photutils.readthedocs.io/en/stable/photutils/psf.html) and [single molecule localization microscopy](http://q-bio.org/w/images/1/1d/SR_review2.pdf), one is interested in estimating the total light flux emitted by a star (or a molecule) and its subpixel position in a detector. Therefore, our parameter vector can be written as $$\theta = (A, c_o, r_o)$$.
+In some problems, such as [point spread function photometry](http://adsabs.harvard.edu/full/1999ASPC..189...56H) and [single molecule localization microscopy](http://q-bio.org/w/images/1/1d/SR_review2.pdf), one is often interested in estimating the total light flux emitted by a star (or a molecule) and its subpixel position on a detector. Therefore, our parameter vector may be written as $$\theta = (A, c_o, r_o)$$.
 
-It is also practical to assume that the rate of change of the expected number of counts, in the $$i$$-th pixel, with respect to the total integrated flux is proportional to the expected number of counts. Mathematically,
+It is also practical to assume that the rate of change of the expected number of counts on a given pixel, with respect to the total integrated flux, is proportional to the expected number of counts on that pixel . Mathematically,
 
 $$
 \dfrac{\partial{\lambda_i(\theta)}}{\partial A} = \alpha \lambda_i(\theta)
