@@ -27,12 +27,12 @@ The first step into deriving the likelihood function of $$Z^{n}$$ is to get the 
 of a Poisson random variable and a Gaussian random variable, we can go ahead and perform the convolution between their pdfs in
 order to get the pdf of $$Z_i$$. However, let's try a different approach.
 
-Note that, conditonal on $$ Y_i = yi$$, $$Z_i$$ follows a Gaussian distribution with mean $$\lambda_i(\theta)$$ and variance
+Note that, conditonal on $$ Y_i = y_i$$, $$Z_i$$ follows a Gaussian distribution with mean $$\lambda_i(\theta)$$ and variance
 $$ \lambda_i(\theta) + \sigma^2 $$, i.e.
 
 $$
 \begin{align}
-p(z_i | y_i) = \dfrac{1}{\sqrt{2\pi(\lambda_i(\theta) + \sigma^2)}}\exp\left{-\dfrac{1}{2}\left(\dfrac{z_i - \lambda_i(\theta)}{\lambda_i(\theta) + \sigma^2}\right)^2\right}
+p(z_i | y_i) = \dfrac{1}{\sqrt{2\pi(\lambda_i(\theta) + \sigma^2)}}\exp\left\{-\dfrac{1}{2}\left(\dfrac{z_i - \lambda_i(\theta)}{\lambda_i(\theta) + \sigma^2}\right)^2\right\}
 \end{align}
 $$
 
@@ -40,6 +40,6 @@ Now, we can use the Law of Total Probability to derive $$p(z_i)$$ as follows
 
 $$
 \begin{align}
-p(z_i) = \mathbb{E}(p(z_i | Y_i)) = \sum_{i=0}^{\infty}p(z_i | y_i)p(y_i) = \sum_{i=0}^{\infty} \dfrac{1}{\sqrt{2\pi(\lambda_i(\theta) + \sigma^2)}}\exp\left{-\dfrac{1}{2}\left(\dfrac{z_i - \lambda_i(\theta)}{\lambda_i(\theta) + \sigma^2}\right)^2\right} \lambda_i(\theta)^{y_i}\dfrac{e^{-\lambda_i(\theta)}}{y_i!}
+p(z_i) = \mathbb{E}(p(z_i | Y_i)) = \sum_{i=0}^{\infty}p(z_i | y_i)p(y_i) = \sum_{i=0}^{\infty} \dfrac{1}{\sqrt{2\pi(\lambda_i(\theta) + \sigma^2)}}\exp\left\{-\dfrac{1}{2}\left(\dfrac{z_i - \lambda_i(\theta)}{\lambda_i(\theta) + \sigma^2}\right)^2\right\} \lambda_i(\theta)^{y_i}\dfrac{e^{-\lambda_i(\theta)}}{y_i!}
 \end{align}
 $$
