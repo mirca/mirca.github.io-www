@@ -45,7 +45,7 @@ p(z_i) &= \sum_{y_i=0}^{\infty} \dfrac{\exp\left\{-\dfrac{1}{2}\dfrac{(z_i - \la
 \end{align}
 $$
 
-Using the fact that $Z_i,~i=1, 2, ..., n$ are independent random variables, the pdf of $Z^n$ follows as
+Using the fact that $$Z_i,~i=1, 2, ..., n$$ are independent random variables, the pdf of $$Z^n$$ follows as
 
 $$
 \begin{align}
@@ -53,6 +53,7 @@ p(z^n) = \prod_{i=1}^{n} p(z_i) = \prod_{i=1}^{n} \sum_{y_i=0}^{\infty} \dfrac{\
 }{\sqrt{2\pi(\lambda_i(\theta) + \sigma^2)}} \dfrac{e^{-\lambda_i(\theta)}\lambda_i(\theta)^{y_i}}{y_i!}
 \end{align}
 $$
+
 and the log-likelihood can be written as
 
 $$
