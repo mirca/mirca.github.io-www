@@ -61,7 +61,7 @@ $$
 $$
 \begin{align}
 \log p(z^n) &\propto -n\log\sigma + \sum_{i=1}^{n} \log\left\{\sum_{y_i=0}^{\infty}\exp\left(-\dfrac{(z_i - y_i)^2}{2\sigma^2} - \lambda_i + y_i(\log\lambda_i - \log y_i!)\right)\right\}\\
-& = -n\log\sigma + \sum_{i=1}^{n} \log\left\{\sum_{y_i=0}^{\infty}\exp\left(-\dfrac{(z_i - y_i)^2}{2\sigma^2} - \lambda_i + y_i(\log\lambda_i - \sum_{\gamma=1}^{y_i}\log \gamma)\right)\right\}
+& = -n\log\sigma + \sum_{i=1}^{n} \log\left\{\sum_{y_i=0}^{\infty}\exp\left(-\dfrac{(z_i - y_i)^2}{2\sigma^2} - \lambda_i + y_i\left(\log\lambda_i - \sum_{\gamma=1}^{y_i}\log \gamma\right)\right)\right\}
 \end{align}
 $$
 
