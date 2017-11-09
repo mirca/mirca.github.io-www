@@ -57,7 +57,7 @@ and the log-likelihood can be written as
 
 $$
 \begin{align}
-\log p(z^n) \propto \sum_{i=1}^{n} \log\left\{\sum_{y_i=0}^{\infty} \dfrac{\exp\left\{-\dfrac{1}{2}\dfrac{(z_i - \lambda_i(\theta))^2 - \lambda_i(\theta)}{\lambda_i(\theta) + \sigma^2}\right\}}{\sqrt{\lambda_i(\theta) + \sigma^2}} \dfrac{\lambda_i(\theta)^{y_i}}{y_i!}\right\}
+\log p(z^n) \propto \sum_{i=1}^{n} \log\left\{\sum_{y_i=0}^{\infty} \dfrac{\exp\left\{-\dfrac{1}{2}\dfrac{(z_i - \lambda_i(\theta))^2}{\lambda_i(\theta) + \sigma^2}  - \lambda_i(\theta) \right\}}{\sqrt{\lambda_i(\theta) + \sigma^2}} \dfrac{\lambda_i(\theta)^{y_i}}{y_i!}\right\}
 \end{align}
 $$
 
