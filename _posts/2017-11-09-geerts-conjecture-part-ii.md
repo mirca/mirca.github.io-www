@@ -18,7 +18,7 @@ gets combined with a thermal noise component (usually assumed to be Gaussian dis
 Consider an experiment that outputs $$Z_i = Y_i + X_i,~i=1, 2, ..., n$$. Assume that $$Y^{n}
 \triangleq \{Y_i\}_{i=1}^{n}$$ is a sequence of independent but **not** identically distributed Poisson random variables,
 each of which has mean $$\lambda_i(\theta)$$, where $$\theta$$ is a vector of parameters which belongs to some set
-$$\Theta \subseteq \mathbb{R}^m$$ called parameter space. Assumed further that $$X^{n}
+$$\Theta \subseteq \mathbb{R}^m$$ called parameter space. Assume further that $$X^{n}
 \triangleq \{X_i\}_{i=1}^{n}$$ is a sequence of iid Gaussian random variables with zero mean and variance $$\sigma^2$$, $$\sigma^2 > 0$$.
 
 The first step into deriving the likelihood function of $$Z^{n}$$ is to get the pdf of every $$Z_i$$. Since $$Z_i$$ is the sum
@@ -41,7 +41,7 @@ $$
 \begin{align}
 p(z_i) &= \mathbb{E}(p(z_i | Y_i)) = \sum_{i=0}^{\infty}p(z_i | y_i)p(y_i)\\
 p(z_i) &= \sum_{y_i=0}^{\infty} \dfrac{\exp\left\{-\dfrac{1}{2}\dfrac{(z_i - \lambda_i(\theta))^2}{\lambda_i(\theta) + \sigma^2}\right\}
-}{\sqrt{2\pi(\lambda_i(\theta) + \sigma^2)}} \dfrac{e^{-\lambda_i(\theta)}\lambda_i(\theta)^{y_i}}{y_i!}
+}{\sqrt{2\pi(\lambda_i(\theta) + \sigma^2)}} \dfrac{e^{-\lambda_i(\theta)}\lambda_i^{y_i}(\theta)}{y_i!}
 \end{align}
 $$
 
@@ -50,7 +50,7 @@ Using the fact that $$Z_i,~i=1, 2, ..., n$$ are independent random variables, th
 $$
 \begin{align}
 p(z^n) = \prod_{i=1}^{n} p(z_i) = \prod_{i=1}^{n} \sum_{y_i=0}^{\infty} \dfrac{\exp\left\{-\dfrac{1}{2}\dfrac{(z_i - \lambda_i(\theta))^2}{\lambda_i(\theta) + \sigma^2}\right\}
-}{\sqrt{2\pi(\lambda_i(\theta) + \sigma^2)}} \dfrac{e^{-\lambda_i(\theta)}\lambda_i(\theta)^{y_i}}{y_i!}
+}{\sqrt{2\pi(\lambda_i(\theta) + \sigma^2)}} \dfrac{e^{-\lambda_i(\theta)}\lambda_i^{y_i}(\theta)}{y_i!}
 \end{align}
 $$
 
@@ -58,7 +58,7 @@ and the log-likelihood can be written as
 
 $$
 \begin{align}
-\log p(z^n) \propto \sum_{i=1}^{n} \log\left\{\sum_{y_i=0}^{\infty} \dfrac{\exp\left\{-\dfrac{1}{2}\dfrac{(z_i - \lambda_i(\theta))^2}{\lambda_i(\theta) + \sigma^2}  - \lambda_i(\theta) \right\}}{\sqrt{\lambda_i(\theta) + \sigma^2}} \dfrac{\lambda_i(\theta)^{y_i}}{y_i!}\right\}
+\log p(z^n) \propto \sum_{i=1}^{n} \log\left\{\sum_{y_i=0}^{\infty} \dfrac{\exp\left\{-\dfrac{1}{2}\dfrac{(z_i - \lambda_i(\theta))^2}{\lambda_i(\theta) + \sigma^2}  - \lambda_i(\theta) \right\}}{\sqrt{\lambda_i(\theta) + \sigma^2}} \dfrac{\lambda_i^{y_i}(\theta)}{y_i!}\right\}
 \end{align}
 $$
 
