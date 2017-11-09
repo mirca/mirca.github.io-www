@@ -16,7 +16,7 @@ This assumption appears in many practical scenarios, specially in imaging in whi
 gets combined with a thermal noise component (usually assumed to be Gaussian distributed).
 
 Consider an experiment that outputs $$Z_i = Y_i + X_i,~i=1, 2, ..., n$$. Assume that $$Y^{n}
-\triangleq \{Y_i\}_{i=1}^{n}$$ is a sequence of independent but **not** identically distributed Poisson random variables,
+\triangleq \{Y_i\}_{i=1}^{n}$$ is a sequence of independent but **not** necessarily identically distributed Poisson random variables,
 each of which has mean $$\lambda_i$$. Assume further that $$X^{n}
 \triangleq \{X_i\}_{i=1}^{n}$$ is a sequence of iid Gaussian random variables with zero mean and variance $$\sigma^2$$, $$\sigma^2 > 0$$.
 
@@ -38,7 +38,7 @@ Now, we can use the Law of Total Probability to derive $$p(z_i)$$ as follows
 
 $$
 \begin{align}
-p(z_i) &= \mathbb{E}(p(z_i | Y_i)) = \sum_{i=0}^{\infty}p(z_i | y_i)p(y_i)\\
+p(z_i) &= \mathbb{E}(p(z_i | Y_i)) = \sum_{y_i=0}^{\infty}p(z_i | y_i)p(y_i)\\
 p(z_i) &= \sum_{y_i=0}^{\infty} \dfrac{\exp\left\{-\dfrac{1}{2}\dfrac{(z_i - \lambda_i)^2}{\lambda_i + \sigma^2}\right\}
 }{\sqrt{2\pi(\lambda_i + \sigma^2)}} \dfrac{e^{-\lambda_i}\lambda_i^{y_i}}{y_i!}
 \end{align}
