@@ -10,11 +10,9 @@ image:
   credit: Hubble Space Telescope
 ---
 
-In the last blog post we did a basic derivation of the Poisson likelihood.
+In this blog post I am going to derive the probability density function of the sum between Poisson and Gaussian random variables.
 
-In this blog post I am going to derive the likelihood function of the sum between Poisson and Gaussian random variables.
-
-This model appears in many practical scenarios, specially in imaging in which a photon noise component (usually Poisson distributed)
+This assumption appears in many practical scenarios, specially in imaging in which a photon noise component (usually Poisson distributed)
 gets combined with a thermal noise component (usually assumed to be Gaussian distributed).
 
 Consider an experiment that outputs $$Z_i = Y_i + X_i,~i=1, 2, ..., n$$. Assume that $$Y^{n}
@@ -41,8 +39,8 @@ Now, we can use the Law of Total Probability to derive $$p(z_i)$$ as follows
 
 $$
 \begin{align}
-p(z_i) = \mathbb{E}(p(z_i | Y_i)) = \sum_{i=0}^{\infty}p(z_i | y_i)p(y_i)\\
-p(z_i) = \sum_{i=0}^{\infty} \dfrac{\exp\left\{-\dfrac{1}{2}\dfrac{(z_i - \lambda_i(\theta))^2}{\lambda_i(\theta) + \sigma^2}\right\}
+p(z_i) &= \mathbb{E}(p(z_i | Y_i)) = \sum_{i=0}^{\infty}p(z_i | y_i)p(y_i)\\
+p(z_i) &= \sum_{y_i=0}^{\infty} \dfrac{\exp\left\{-\dfrac{1}{2}\dfrac{(z_i - \lambda_i(\theta))^2}{\lambda_i(\theta) + \sigma^2}\right\}
 }{\sqrt{2\pi(\lambda_i(\theta) + \sigma^2)}} \lambda_i(\theta)^{y_i}\dfrac{e^{-\lambda_i(\theta)}}{y_i!}
 \end{align}
 $$
