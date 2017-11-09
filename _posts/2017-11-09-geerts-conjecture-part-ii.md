@@ -54,8 +54,15 @@ and the log-likelihood can be written as
 
 $$
 \begin{align}
-\log p(z^n) \propto \sum_{i=1}^{n} \log\left\{\sum_{y_i=0}^{\infty}\dfrac{\exp\left\{-\dfrac{(z_i - y_i)^2}{2\sigma^2} - \lambda_i\right\}}{\sqrt{2\pi\sigma^2}}\dfrac{\lambda_i^{y_i}}{y_i!}\right\} ~~~\blacksquare
+\log p(z^n) = \sum_{i=1}^{n} \log\left\{\sum_{y_i=0}^{\infty}\dfrac{\exp\left\{-\dfrac{(z_i - y_i)^2}{2\sigma^2} - \lambda_i\right\}}{\sqrt{2\pi\sigma^2}}\dfrac{\lambda_i^{y_i}}{y_i!}\right\}
 \end{align}
 $$
+
+$$
+\begin{align}
+\log p(z^n) \propto -n\log\sigma + \sum_{i=1}^{n} \log\left\{\sum_{y_i=0}^{\infty}\exp\left(-\dfrac{(z_i - y_i)^2}{2\sigma^2} - \lambda_i + yi(\log\lambda_i - \log y_i!\right)\right\}
+\end{align}
+$$
+
 
 Any suggestions on how to make this likelihood computationally tractable? Maybe via approximation theory?
