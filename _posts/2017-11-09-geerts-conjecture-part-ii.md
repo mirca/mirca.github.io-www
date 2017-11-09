@@ -29,7 +29,7 @@ $$ \sigma^2 $$, i.e.
 
 $$
 \begin{align}
-p(z_i | y_i) = \dfrac{\exp\left\{-\dfrac{1}{2}\dfrac{(z_i - y_i)^2}{\sigma^2}\right\}}{\sqrt{2\pi\sigma^2}}
+p(z_i | y_i) = \dfrac{\exp\left\{-\dfrac{(z_i - y_i)^2}{2\sigma^2}\right\}}{\sqrt{2\pi\sigma^2}}
 \end{align}
 $$
 
@@ -38,7 +38,7 @@ Now, we can use the Law of Total Probability to derive $$p(z_i)$$ as follows
 $$
 \begin{align}
 p(z_i) &= \mathbb{E}(p(z_i | Y_i)) = \sum_{y_i=0}^{\infty}p(z_i | y_i)p(y_i)\\
-p(z_i) &= \sum_{y_i=0}^{\infty} \dfrac{\exp\left\{-\dfrac{1}{2}\dfrac{(z_i - y_i)^2}{\sigma^2}\right\}}{\sqrt{2\pi\sigma^2}} \dfrac{e^{-\lambda_i}\lambda_i^{y_i}}{y_i!}
+p(z_i) &= \sum_{y_i=0}^{\infty} \dfrac{\exp\left\{-\dfrac{(z_i - y_i)^2}{2\sigma^2}\right\}}{\sqrt{2\pi\sigma^2}} \dfrac{e^{-\lambda_i}\lambda_i^{y_i}}{y_i!}
 \end{align}
 $$
 
@@ -46,7 +46,7 @@ Using the fact that $$Z_i,~i=1, 2, ..., n$$ are independent random variables, th
 
 $$
 \begin{align}
-p(z^n) = \prod_{i=1}^{n} p(z_i) = \prod_{i=1}^{n} \dfrac{\exp\left\{-\dfrac{1}{2}\dfrac{(z_i - y_i)^2}{\sigma^2}\right\}}{\sqrt{2\pi\sigma^2}}\dfrac{e^{-\lambda_i}\lambda_i^{y_i}}{y_i!}
+p(z^n) = \prod_{i=1}^{n} p(z_i) = \prod_{i=1}^{n} \dfrac{\exp\left\{-\dfrac{(z_i - y_i)^2}{2\sigma^2}\right\}}{\sqrt{2\pi\sigma^2}}\dfrac{e^{-\lambda_i}\lambda_i^{y_i}}{y_i!}
 \end{align}
 $$
 
@@ -54,7 +54,7 @@ and the log-likelihood can be written as
 
 $$
 \begin{align}
-\log p(z^n) \propto \sum_{i=1}^{n} \log\left\{\sum_{y_i=0}^{\infty}\dfrac{\exp\left\{-\dfrac{1}{2}\dfrac{(z_i - y_i)^2}{\sigma^2} - \lambda_i\right\}}{\sqrt{2\pi\sigma^2}}\dfrac{\lambda_i^{y_i}}{y_i!}\right\} \blacksquare
+\log p(z^n) \propto \sum_{i=1}^{n} \log\left\{\sum_{y_i=0}^{\infty}\dfrac{\exp\left\{-\dfrac{(z_i - y_i)^2}{2\sigma^2} - \lambda_i\right\}}{\sqrt{2\pi\sigma^2}}\dfrac{\lambda_i^{y_i}}{y_i!}\right\} ~~~\blacksquare
 \end{align}
 $$
 
