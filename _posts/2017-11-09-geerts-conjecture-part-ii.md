@@ -32,7 +32,7 @@ $$ \lambda_i(\theta) + \sigma^2 $$, i.e.
 
 $$
 \begin{align}
-p(z_i | y_i) = \dfrac{1}{\sqrt{2\pi(\lambda_i(\theta) + \sigma^2)}}\exp\left\{-\dfrac{1}{2}\left(\dfrac{z_i - \lambda_i(\theta)}{\lambda_i(\theta) + \sigma^2}\right)^2\right\}
+p(z_i | y_i) = \dfrac{1}{\sqrt{2\pi(\lambda_i(\theta) + \sigma^2)}}\exp\left\{-\dfrac{1}{2}\dfrac{(z_i - \lambda_i(\theta))^2}{\lambda_i(\theta) + \sigma^2}\right\}
 \end{align}
 $$
 
@@ -40,6 +40,6 @@ Now, we can use the Law of Total Probability to derive $$p(z_i)$$ as follows
 
 $$
 \begin{align}
-p(z_i) = \mathbb{E}(p(z_i | Y_i)) = \sum_{i=0}^{\infty}p(z_i | y_i)p(y_i) = \sum_{i=0}^{\infty} \dfrac{1}{\sqrt{2\pi(\lambda_i(\theta) + \sigma^2)}}\exp\left\{-\dfrac{1}{2}\left(\dfrac{z_i - \lambda_i(\theta)}{\lambda_i(\theta) + \sigma^2}\right)^2\right\} \lambda_i(\theta)^{y_i}\dfrac{e^{-\lambda_i(\theta)}}{y_i!}
+p(z_i) = \mathbb{E}(p(z_i | Y_i)) = \sum_{i=0}^{\infty}p(z_i | y_i)p(y_i) = \sum_{i=0}^{\infty} \dfrac{1}{\sqrt{2\pi(\lambda_i(\theta) + \sigma^2)}}\exp\left\{-\dfrac{1}{2}\dfrac{(z_i - \lambda_i(\theta))^2}{\lambda_i(\theta) + \sigma^2}\right\} \lambda_i(\theta)^{y_i}\dfrac{e^{-\lambda_i(\theta)}}{y_i!}
 \end{align}
 $$
