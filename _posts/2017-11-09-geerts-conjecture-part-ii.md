@@ -46,7 +46,7 @@ Using the fact that $$Z_i,~i=1, 2, ..., n$$ are independent random variables, th
 
 $$
 \begin{align}
-p(z^n) = \prod_{i=1}^{n} p(z_i) = \prod_{i=1}^{n} \dfrac{\exp\left\{-\dfrac{(z_i - y_i)^2}{2\sigma^2}\right\}}{\sqrt{2\pi\sigma^2}}\dfrac{e^{-\lambda_i}\lambda_i^{y_i}}{y_i!}
+p(z^n) = \prod_{i=1}^{n} p(z_i) = \prod_{i=1}^{n} \sum_{y_i=0}^{\infty} \dfrac{\exp\left\{-\dfrac{(z_i - y_i)^2}{2\sigma^2}\right\}}{\sqrt{2\pi\sigma^2}}\dfrac{e^{-\lambda_i}\lambda_i^{y_i}}{y_i!}
 \end{align}
 $$
 
