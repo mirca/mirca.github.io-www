@@ -10,7 +10,7 @@ image:
   credit: Hubble Space Telescope
 ---
 
-In this blog post I am going to derive the probability density function of the sum between Poisson and Gaussian random variables.
+In this short blog post I am going to derive the probability density function of the sum between Poisson and Gaussian random variables.
 
 This assumption appears in many practical scenarios, specially in imaging in which a photon noise component (usually Poisson distributed)
 gets combined with a thermal noise component (usually assumed to be Gaussian distributed).
@@ -58,8 +58,6 @@ and the log-likelihood can be written as
 
 $$
 \begin{align}
-\log p(z^n) \propto \sum_{i=1}^{n} \log\left\{\sum_{y_i=0}^{\infty} \dfrac{\exp\left\{-\dfrac{1}{2}\dfrac{(z_i - \lambda_i(\theta))^2}{\lambda_i(\theta) + \sigma^2}  - \lambda_i(\theta) \right\}}{\sqrt{\lambda_i(\theta) + \sigma^2}} \dfrac{\lambda_i^{y_i}(\theta)}{y_i!}\right\}
+\log p(z^n) \propto \sum_{i=1}^{n} \log\left\{\sum_{y_i=0}^{\infty} \dfrac{\exp\left\{-\dfrac{1}{2}\dfrac{(z_i - \lambda_i(\theta))^2}{\lambda_i(\theta) + \sigma^2}  - \lambda_i(\theta) \right\}}{\sqrt{\lambda_i(\theta) + \sigma^2}} \dfrac{\lambda_i^{y_i}(\theta)}{y_i!}\right\} \blacksquare
 \end{align}
 $$
-
-
