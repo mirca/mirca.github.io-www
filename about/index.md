@@ -34,6 +34,6 @@ During the Summer of 2016 I took a gap semester in my undergraduate studies to b
 Beginning 2017, I started as an intern for the Kepler/K2 Guest Observer Office at NASA Ames, in Silicon Valley, USA, working on data analysis problems together with <a href="http://geert.io">Dr. Geert Barentsen</a>, Dr. Michael Gully-Santiago, Dr. Christina Hedges, and Dr. Ann Marie Cody.
 </p>
 
-I was featured IEEE Student of the Week in the <a href="https://www.facebook.com/IEEEStudents/photos/a.285696968155912.70076.236454509746825/769475893111348/?type=1&theater">IEEE Students Facebook webpage</a>. \o/
+In my spare time I enjoy taking my dog Pluto for a walk, drinking a good coffee, playing football, writing code for open source projects, playing chess, or reading books.
 
-In my spare time I enjoy taking my dog Pluto for a walk, driking a good coffee, playing football, writing code for open source projects, playing chess, or reading books.
+<i>Fun fact</i>: I was featured IEEE Student of the Week in the <a href="https://www.facebook.com/IEEEStudents/photos/a.285696968155912.70076.236454509746825/769475893111348/?type=1&theater">IEEE Students Facebook webpage</a>. \o/
