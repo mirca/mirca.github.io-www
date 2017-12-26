@@ -70,4 +70,4 @@ playing chess, and reading books.
 
 If you read til here, enjoy a photo of Pluto ;-):
 <br>
-<center><img src="../images/pluto/pluto.jpg" style="width:320px;height:320px;"></center>
+<center><img src="../images/pluto/pluto.jpg"></center>
