@@ -11,7 +11,10 @@ image:
 <p style='text-align: justify;'>
 Hi there, my name is <b>Zé</b>!
 <br><br>
-I'm an undergraduate student majoring in Electrical Engineering at the Federal University of Campina Grande, Brazil.
+I'm an undergraduate student majoring in Electrical Engineering at the Federal University of
+Campina Grande, Brazil. Since my second semester in college I'm affiliated with the
+<a href="https://www.iecom.org.br">Institute for Advanced Studies in Communications</a> mentored by
+<a href="https://scholar.google.com.br/citations?user=NBSmPdAAAAAJ&hl=en">Dr. Marcelo Alencar</a>.
 </p>
 
 <p style='text-align: justify;'>
