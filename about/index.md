@@ -25,7 +25,9 @@ Probabilistic algorithms.
 <p style='text-align: justify;'>
 In the Summer of 2015, I had the privilege to be an undergraduate guest researcher at the
 Nanofabrication Research Group, National Institute of Standards and Technology, USA, under
-the mentorship of Dr. Marcelo Davanço. In that opportunity, I was able to apply the theory
+the mentorship of
+<a href="https://www.nist.gov/people/marcelo-davanco">Dr. Marcelo Davanço</a>.
+In that opportunity, I was able to apply the theory
 I learnt to implement routines in MATLAB for single molecule localization microscopy and
 fluorescense localization imaging microscopy.
 More precisely, I developed Maximum Likelihood Estimators (along with Fisher Information Matrices)
@@ -48,7 +50,10 @@ During the Summer of 2016 I took a gap semester in my undergraduate studies to b
 software developer for the Astropy Project as part of the Google Summer of Code program.
 In that occasion, I developed Python code to perform both unsupervised clustering and regression
 of Gaussian Mixture Models for Point Spread Function photometry. I had the privilege to be
-mentored by Dr. Hans Moritz Gunther, Dr. Brigitta Sipocz, and Dr. Erik Tollerud.
+mentored by
+<a href="http://space.mit.edu/~guenther/">Dr. Hans Moritz Gunther</a>,
+<a href="https://github.com/bsipocz">Dr. Brigitta Sipocz</a>, and
+<a href="http://www.stsci.edu/~etollerud/">Dr. Erik Tollerud</a>.
 </p>
 
 <p style='text-align: justify;'>
