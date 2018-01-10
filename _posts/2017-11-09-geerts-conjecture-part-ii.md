@@ -54,14 +54,14 @@ and the log-likelihood can be written as
 
 $$
 \begin{align}
-\log p(z^n) = \sum_{i=1}^{n} \log\left\{\sum_{y_i=0}^{\infty}\dfrac{\exp\left\{-\dfrac{(z_i - y_i)^2}{2\sigma^2} - \lambda_i\right\}}{\sqrt{2\pi\sigma^2}}\dfrac{\lambda_i^{y_i}}{y_i!}\right\}
+\log p(z^n) = \sum_{i=1}^{n}\log\left\{\sum_{y_i=0}^{\infty}\dfrac{\exp\left\{-\dfrac{(z_i - y_i)^2}{2\sigma^2}\right\}}{\sqrt{2\pi\sigma^2}}\dfrac{\lambda_i^{y_i}}{y_i!}\right\} - \lambda_i
 \end{align}
 $$
 
 $$
 \begin{align}
-\log p(z^n) &\propto -n\log\sigma + \sum_{i=1}^{n} \log\left\{\sum_{y_i=0}^{\infty}\exp\left(-\dfrac{(z_i - y_i)^2}{2\sigma^2} - \lambda_i + y_i(\log\lambda_i - \log y_i!)\right)\right\}\\
-& = -n\log\sigma + \sum_{i=1}^{n} \log\left\{\sum_{y_i=0}^{\infty}\exp\left(-\dfrac{(z_i - y_i)^2}{2\sigma^2} - \lambda_i + y_i\left(\log\lambda_i - \sum_{\gamma=1}^{y_i}\log \gamma\right)\right)\right\}
+\log p(z^n) &\propto -n\log\sigma + \sum_{i=1}^{n} \log\left\{\sum_{y_i=0}^{\infty}\exp\left(-\dfrac{(z_i - y_i)^2}{2\sigma^2} + y_i(\log\lambda_i - \log y_i!)\right)\right\}  - \lambda_i\\
+& = -n\log\sigma + \sum_{i=1}^{n} \log\left\{\sum_{y_i=0}^{\infty}\exp\left(-\dfrac{(z_i - y_i)^2}{2\sigma^2} + y_i\left(\log\lambda_i - \sum_{\gamma=1}^{y_i}\log \gamma\right)\right)\right\} - \lambda_i
 \end{align}
 $$
 
