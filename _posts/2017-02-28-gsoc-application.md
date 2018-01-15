@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "4 steps before writing your GSoC application"
-excerpt: "One never notices what has been done; one can only see what remains to be done. (Marie Skłodowska Curie)"
+excerpt: ""
 modified: 2017-02-28
 tags: [gsoc, astropy, openastronomy]
 comments: true

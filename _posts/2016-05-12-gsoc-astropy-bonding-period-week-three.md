@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Community Bonding Period: Week Three"
-excerpt: "What I cannot create, I do not understand (R. P. Feynman)"
+excerpt: "Second week of the community bonding period is over!"
 modified: 2016-05-13
 tags: [gsoc, astropy, openastronomy]
 comments: true

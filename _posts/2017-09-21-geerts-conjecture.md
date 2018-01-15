@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Likelihood Function for Poisson Measurements"
-excerpt: "Dr. G's Conjecture"
+excerpt: "Dr. G's Conjecture part I"
 modified: 2017-08-06
 tags: [gsoc, astropy, openastronomy]
 comments: true

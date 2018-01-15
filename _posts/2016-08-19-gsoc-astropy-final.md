@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Brief overview of PSF Photometry: Google Summer of Code project for Astropy/Photutils"
-excerpt: "I have no idols. I admire work, dedication and competence. (Ayrton Senna)"
+excerpt: ""
 modified: 2016-09-09
 tags: [gsoc, astropy, openastronomy]
 comments: true
@@ -22,17 +22,11 @@ during the course of my GSoC project:
 <ul>
 <li> <a href="https://github.com/astropy/photutils/pull/367">#367: Create PSF subpackage</a></li>
 <li> <a href="https://github.com/astropy/photutils/pull/369">#369: Add an implementation of daophot GROUP functionality</a></li>
-
 <li> <a href="https://github.com/astropy/photutils/pull/376">#376: Add a way to get params uncertainties in psf_photometry</a></li>
-
 <li> <a href="https://github.com/astropy/photutils/pull/379">#379: findstars oop interface</a></li>
-
 <li> <a href="https://github.com/astropy/photutils/pull/385">#385: PSF Photometry in Crowded Fields</a></li>
-
 <li> <a href="https://github.com/astropy/photutils/pull/404">#404: [DOC]: Narrative docs for PSF Photometry</a></li>
-
 <li> <a href="https://github.com/astropy/photutils-datasets/pull/5">#5: Notebook for psf-photometry in crowded fields</a></li>
-
 </ul>
 
 My project was entitled "Implement Point Spread Function (PSF) photometry for

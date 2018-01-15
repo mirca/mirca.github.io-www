@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "K2 Guest Observer Office and the PyKE package"
-excerpt: "There's never been a more important time than right now (Anonymous Author)"
+excerpt: ""
 modified: 2017-05-06
 tags: [gsoc, astropy, openastronomy]
 comments: true

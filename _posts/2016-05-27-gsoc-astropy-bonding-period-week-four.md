@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Let the games begin!"
-excerpt: "In space, no one can hear you code. :)"
+excerpt: "Third and fourth weeks of the bonding period are over!"
 modified: 2016-05-27
 tags: [gsoc, astropy, openastronomy]
 comments: true
