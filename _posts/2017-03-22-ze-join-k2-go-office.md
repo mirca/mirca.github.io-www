@@ -44,7 +44,7 @@ This is going to be achieved by doing the following tasks:
 * Creating user-friendly command-line tools
 
 <p style='text-align: justify'>
-Stay tuned at PyKE Github repository <a href="http://www.github.com/KeplerGO/PyKE">here</a>.
+Stay tuned at PyKE GitHub repository <a href="http://www.github.com/KeplerGO/PyKE">here</a>.
 </p>
 
 Zé

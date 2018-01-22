@@ -23,13 +23,14 @@ energetic, and welcoming communities. Those libraries I mentioned are developed 
 daily basis by experts from academia and industry and also by students.
 
 In the past years, I've been involved with open source software development
-primarily thanks to Google, Github, and NASA ❤️.
+primarily thanks to Google, GitHub, and NASA ❤️.
 
 Here is a list of projects I'm more involved with:
 
 * <a href="https://github.com/astropy/astropy">astropy</a>: A community Python library for Astronomy
 * <a href="https://github.com/astropy/photutils">photutils</a>: Image photometry in Python
 * <a href="https://github.com/keplergo/pyke">pyke</a>: A suite of Python tools to analyze Kepler/K2 data
+* <a href="https://github.com/keplergo/lightkurve">lightkurve</a>: Sweet astronomical flux time series analysis in Python
 * <a href="https://github.com/keplergo/oktopus">oktopus</a>: A soft-bodied, eight-armed package for beautiful inference
 * <a href="https://github.com/mirca/macaw">macaw</a>: A multicolor, long-tailed package for beautiful majorization-minimization applied to machine learning
 
