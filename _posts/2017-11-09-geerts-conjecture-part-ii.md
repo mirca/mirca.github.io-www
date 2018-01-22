@@ -24,7 +24,7 @@ The first step into deriving the likelihood function of $$Z^{n}$$ is to get the 
 of a Poisson random variable and a Gaussian random variable, we can go ahead and perform the convolution between their pdfs in
 order to get the pdf of $$Z_i$$. However, nevermind, let's try something different today.
 
-Note that, conditonal on $$ Y_i = y_i$$, $$Z_i$$ follows a Gaussian distribution with mean $$y_i$$ and variance
+Note that, conditioned on $$ Y_i = y_i$$, $$Z_i$$ follows a Gaussian distribution with mean $$y_i$$ and variance
 $$ \sigma^2 $$, i.e.
 
 $$
