@@ -47,7 +47,7 @@ read the organization's development guide thoroughly. Doing this you can avoid m
 (specially those covered in the dev guide) while submitting your first patches. If you are
 fixing a bug or adding a new feature, make sure to add unit tests that correctly covered them.
 Make sure your commit message falls under the standard of the organization.
-All in all, this little things will show to mentors that you are proactive, organized,
+All in all, these little things will show to mentors that you are proactive, organized,
 and that you can work independently. Also, your potential mentor will have a better idea of your
 current programming skills if you solve more difficult issues. However, solving easy-fix issues
 is also great to make you acquainted with the git flow.
