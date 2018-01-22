@@ -4,6 +4,13 @@ title: Publications
 excerpt: "A List of Publications"
 ---
 
+# 2018
+
+## Conferences
+
+* <p style='text-align: justify;'> <b>CARDOSO, J. V. M.</b>, <i>et. al.</i> <b>A PSF photometry tool for NASA's Kepler, K2, and TESS Missions (abstract)</b>. <i>231st American Astronomical Society Meeting</i>, National Harbor, MD, USA.</p>
+
+
 # 2017
 
 ## Journals
@@ -15,8 +22,6 @@ excerpt: "A List of Publications"
 * <p style='text-align: justify;'> <b>CARDOSO, J. V. M.</b>, QUEIROZ, W. J. L., LIU, H., ALENCAR, M. S. <b>On the Performance of the Energy Detector Subject to Impulsive Noise in κ − μ, α − μ, and η − μ Fading Channels</b>. <i>Tsinghua Science and Technology. <a href="http://ieeexplore.ieee.org/document/7986939/">http://ieeexplore.ieee.org/document/7986939/</a></i></p>
 
 ## Conferences
-
-* <p style='text-align: justify;'> LIU. J., <i>et. al.</i> <b>A PSF photometry tool for NASA's Kepler, K2, and TESS Missions</b>. <i>231st American Astronomical Society Meeting</i>, National Harbor, MD, USA.</p>
 
 * <p style='text-align: justify;'> LIU. J., <i>et. al.</i> <b>High-throughput nanoscale optical positioning of single quantum dots for high-performance single-photon generation</b>. <i>8th International Conference on Metamaterials, Photonic Crystals and Plasmonics</i>, Seoul, South Korea.</p>
 
