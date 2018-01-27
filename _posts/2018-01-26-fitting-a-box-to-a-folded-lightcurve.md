@@ -31,8 +31,7 @@ is the indicator function. The parameters to be estimated are $$\left\{h, d, t_0
 In this setting, $$y_i \sim \mathcal{N}(h - d\cdot \mathbb{I}(t_0 \leq t_i \leq t_0 + w), \sigma^2)$$,
 and the joint density of $$y$$ follows as
 $$
-\begin{align}
-    p(y) = \prod_{i=1}^{n} p(y_i) = \dfrac{1}{(2\pi\sigma^2)^{n/2}} \exp\left\{-\dfrac{1}{2\sigma^2}\left(\sum_{i \in I^c}(y_i - h)^2 + \sum_{i \in I}(y_i - (h - d))^2\right)\right\}
+\begin{align} p(y) = \prod_{i=1}^{n} p(y_i) = \dfrac{1}{(2\pi\sigma^2)^{n/2}} \exp\left\{-\dfrac{1}{2\sigma^2}\left(\sum_{i \in I^c}(y_i - h)^2 + \sum_{i \in I}(y_i - (h - d))^2\right)\right\}
 \end{align}
 $$
 where $$I \triangleq \{i | t_0 \leq t_i \leq t_0 + w\}$$.
