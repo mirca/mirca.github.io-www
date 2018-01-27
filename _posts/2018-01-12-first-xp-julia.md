@@ -20,10 +20,9 @@ as $$J(f)$$, is <i>the smallest closed set containing at least three points whic
 completely invariant under</i> $$f$$ (if you clearly understand what that means,
 please explain it to me bellow in the comments).
 
-Julia sets can be used to create those pretty pictures:
+Julia sets can be used to create those pretty pictures (commonly known as fractals):
 <br>
-<center><img src="../images/galaxy_julia_set.gif" style="width:237px;height:320px;"></center>
-commonly known as fractals.
+<center><img src="../images/galaxy_julia_set.gif" style="width:320px;height:237px;"></center>
 
 The code to create this "galaxy" Julia set is available on my <a href="https://github.com/mirca/hackaas231">
 hack-aas repository</a>.
