@@ -75,7 +75,7 @@ in which $$\bar{w} \triangleq \dfrac{w}{n}$$.
 The formulae for $$h^{\star}$$ and $$d^{\star}$$ are precisely the same as the ones
 presented by <a href="https://arxiv.org/abs/astro-ph/0206099">Kovács, Zucker, and Mazeh</a>,
 in case one assumes that the "weights" $$w_i$$, as presented in the aforementioned paper,
-are constant w.r.t. $$i$$, e.g., $$w_i = 1$$. Note that 
+are constant w.r.t. $$i$$, e.g., $$w_i = 1$$.
 
 
 Hence, one can iterate between numerically optimizing $$\log p({\boldsymbol{y}})$$ for $$t_0$$ and $$w$$
