@@ -45,18 +45,18 @@ where $$I \triangleq \{i | t_0 \leq t_i \leq t_0 + w\}$$.
 
 The log-likelihood function (up to an additive constant) may be written as
 \begin{align}
-    \log p(y) = -\dfrac{1}{2\sigma^2}\left(\sum_{i \in I^c}(y_i - h)^2 + \sum_{i \in I}(y_i - (h - d))^2\right)
+    \log p(\boldsymbol{y}) = -\dfrac{1}{2\sigma^2}\left(\sum_{i \in I^c}(y_i - h)^2 + \sum_{i \in I}(y_i - (h - d))^2\right)
 \end{align}
 
 Therefore, the maximum likelihood estimator may be written as
 \begin{align}
-    {\theta}^{\star}({y}) &= \arg \min_{h, d, t_0, w} \sum_{i \in I^c}(y_i - h)^2 + \sum_{i \in I}(y_i - (h - d))^2
+    {\theta}^{\star}({\boldsymbol{y}}) &= \arg \min_{h, d, t_0, w} \sum_{i \in I^c}(y_i - h)^2 + \sum_{i \in I}(y_i - (h - d))^2
 \end{align}
 
 Note that, $$\log p({\boldsymbol{y}})$$ has continuous partial derivatives with respect to $$h$$ and $$d$$. And
 therefore, for fixed values of $$t_0$$ and $$w$$,
 \begin{align}
-    {\theta}^{\star}({y}) &= \arg \min_{h, d} \sum_{i \in I^c}(y_i - h)^2 + \sum_{i \in I}(y_i - (h - d))^2
+    {\theta}^{\star}({\boldsymbol{y}}) &= \arg \min_{h, d} \sum_{i \in I^c}(y_i - h)^2 + \sum_{i \in I}(y_i - (h - d))^2
 \end{align}
 
 Differentiating $$\log p({\boldsymbol{y}})$$ with respect to $$h$$, and solving
@@ -77,9 +77,11 @@ developed by <a href="https://arxiv.org/abs/astro-ph/0206099">Kovács, Zucker, a
 in case one assumes that the "weights" $$w_i$$, as presented in the aforementioned paper,
 are constant w.r.t. $$i$$, e.g., $$w_i = 1$$.
 
-
 Hence, one can iterate between numerically optimizing $$\log p({\boldsymbol{y}})$$ for $$t_0$$ and $$w$$
 and analytically computing $$h^{\star}$$ and $$d^{\star}$$. On my experiments, I found that two
 iterations of this procedure are enough for convergence.
+
+In the BLS paper, it seems to me that they used a grid-search approach in order to
+find $$t_0$$ and $$w$$.
 
 See [https://github.com/KeplerGO/lightkurve/pull/4](https://github.com/KeplerGO/lightkurve/pull/4) for a Python implementation of these maths.
