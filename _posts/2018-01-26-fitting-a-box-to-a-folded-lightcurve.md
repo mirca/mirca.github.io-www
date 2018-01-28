@@ -72,8 +72,8 @@ $$\dfrac{\partial}{\partial d}\log p({\boldsymbol{y}}) = 0$$, it follows that
 \end{align}
 in which $$\bar{w} \triangleq \dfrac{w}{n}$$.
 
-The formulae for $$h^{\star}$$ and $$d^{\star}$$ are precisely the same as the ones
-presented by <a href="https://arxiv.org/abs/astro-ph/0206099">Kovács, Zucker, and Mazeh</a>,
+The formulae for $$h^{\star}$$ and $$d^{\star}$$ presented here are precisely the same as the ones
+developed by <a href="https://arxiv.org/abs/astro-ph/0206099">Kovács, Zucker, and Mazeh</a>,
 in case one assumes that the "weights" $$w_i$$, as presented in the aforementioned paper,
 are constant w.r.t. $$i$$, e.g., $$w_i = 1$$.
 
