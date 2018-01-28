@@ -33,7 +33,7 @@ the start time of the transit $$t_0$$, and the duration or width of the transit 
 
 Pictorially:
 
-<center><img src="../images/box.png" style="width:320px;height:237px;"></center>
+<center><img src="../images/box.png"></center>
 
 In this setting, $$y_i \sim \mathcal{N}(h - d\cdot \mathbb{I}(t_0 \leq t_i \leq t_0 + w), \sigma^2)$$,
 and the joint probability density function of $$\boldsymbol{y}$$ is given by
