@@ -104,9 +104,9 @@ Another interesting quantity is the variance of $$d^{\star}$$, which can be comp
                                           + \dfrac{1}{N^{2}(I)}\sum_{i \in I}\mathrm{var}\left(y_i\right)}{\left(1 - \dfrac{N(I)}{n}\right)^2},
 \end{align}
 \begin{align}
-\mathrm{var}\left(d^{\star}\right) = \sigma^2 \dfrac{\dfrac{1}{n} + \dfrac{1}{N(I)}}{\left(i1 - \dfrac{N(I)}{n}\right)^2} \geq  \dfrac{\sigma^2}{N(I)}.
+\mathrm{var}\left(d^{\star}\right) = \sigma^2 \dfrac{\dfrac{1}{n} + \dfrac{1}{N(I)}}{\left(1 - \dfrac{N(I)}{n}\right)^2} \geq  \dfrac{\sigma^2}{N(I)}.
 \end{align}
 
-In effect, $$\lim_{n\rightarrow\infty} \mathrm{var}\left(d^{\star}\right) = \dfrac{\sigma^2}{N(I)}$$.
+In effect, $$\displaystyle\lim_{n\rightarrow\infty} \mathrm{var}\left(d^{\star}\right) = \dfrac{\sigma^2}{N(I)}$$.
 
 See [https://github.com/KeplerGO/lightkurve/pull/4](https://github.com/KeplerGO/lightkurve/pull/4) for a Python implementation of these maths.
