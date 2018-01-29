@@ -69,9 +69,8 @@ where $$N(I)$$ is the number of elements in the set $$I$$.
 Now, differentiating $$\log p({\boldsymbol{y}})$$ with respect to $$d$$, and solving
 $$\dfrac{\partial}{\partial d}\log p({\boldsymbol{y}}) = 0$$, it follows that
 \begin{align}
-    d^{\star} = \dfrac{\dfrac{1}{n}\displaystyle\sum_{i=1}^{n}y_i - \dfrac{1}{N(I)}\sum_{i \in I}y_i}{1 - \bar{w}}\nonumber,
+    d^{\star} = \dfrac{\dfrac{1}{n}\displaystyle\sum_{i=1}^{n}y_i - \dfrac{1}{N(I)}\sum_{i \in I}y_i}{1 - \dfrac{N(I)}{n}}\nonumber,
 \end{align}
-in which $$\bar{w} \triangleq \dfrac{N(I)}{n}$$.
 
 The formulae for $$h^{\star}$$ and $$d^{\star}$$ presented here are precisely the same as the ones
 developed by <a href="https://arxiv.org/abs/astro-ph/0206099">Kovács, Zucker, and Mazeh</a>,
@@ -84,5 +83,30 @@ iterations of this procedure are enough for convergence.
 
 In the BLS paper, it seems to me that they used a grid-search approach in order to
 find $$t_0$$ and $$w$$.
+
+Furthermore, the maximum likelihood estimator for the transit depth, $$d^{\star}$$,
+is an unbiased estimator for any sample size $n$. To see that, let's take the expected
+value of $$d^{\star}$$ with respect to the distribution of the data $$\boldsymbol{y}$$
+\begin{align}
+\mathbb{E}\left(d^{\star}\right) = \dfrac{\dfrac{1}{n}\displaystyle\sum_{i=1}^{n}\mathbb{E}\left(y_i\right)
+                                          - \dfrac{1}{N(I)}\sum_{i \in I}\mathbb{E}\left(y_i\right)}{1 - \dfrac{N(I)}{n}},
+\end{align}
+noting that $$\mathbb{E}\left(y_i\right) = h - d\cdot \mathbb{I}(t_0 \leq t_i \leq t_0 + w)$$,
+and after doing the maths, one arrives at
+\begin{align}
+\mathbb{E}\left(d^{\star}\right) = d,
+\end{align}
+which proves that $$d^{\star}$$ is unbiased.
+
+Another interesting quantity is the variance of $$d^{\star}$$, which can be computed as
+\begin{align}
+\mathrm{var}\left(d^{\star}\right) = \dfrac{\dfrac{1}{n^2}\displaystyle\sum_{i=1}^{n}\mathrm{var}\left(y_i\right)
+                                          + \dfrac{1}{N^{2}(I)}\sum_{i \in I}\mathrm{var}\left(y_i\right)}{\left(1 - \dfrac{N(I)}{n}\right)^2},
+\end{align}
+\begin{align}
+\mathrm{var}\left(d^{\star}\right) = \sigma^2 \dfrac{\dfrac{1}{n} + \dfrac{1}{N(I)}}{\left(i1 - \dfrac{N(I)}{n}\right)^2} \geq  \dfrac{\sigma^2}{N(I)}.
+\end{align}
+
+In effect, $$\lim_{n\rightarrow\infty} \mathrm{var}\left(d^{\star}\right) = \dfrac{\sigma^2}{N(I)}$$.
 
 See [https://github.com/KeplerGO/lightkurve/pull/4](https://github.com/KeplerGO/lightkurve/pull/4) for a Python implementation of these maths.
