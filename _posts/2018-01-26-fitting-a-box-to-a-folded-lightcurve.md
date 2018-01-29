@@ -84,8 +84,8 @@ iterations of this procedure are enough for convergence.
 In the BLS paper, it seems to me that they used a grid-search approach in order to
 find $$t_0$$ and $$w$$.
 
-Furthermore, the maximum likelihood estimator for the transit depth, $$d^{\star}$$,
-is an unbiased estimator for any sample size $n$. To see that, let's take the expected
+Interestingly, the maximum likelihood estimator for the transit depth, $$d^{\star}$$,
+is an unbiased estimator for any sample size $$n$$. To see that, let's take the expected
 value of $$d^{\star}$$ with respect to the distribution of the data $$\boldsymbol{y}$$
 \begin{align}
 \mathbb{E}\left(d^{\star}\right) = \dfrac{\dfrac{1}{n}\displaystyle\sum_{i=1}^{n}\mathbb{E}\left(y_i\right)
@@ -108,5 +108,12 @@ Another interesting quantity is the variance of $$d^{\star}$$, which can be comp
 \end{align}
 
 In effect, $$\displaystyle\lim_{n\rightarrow\infty} \mathrm{var}\left(d^{\star}\right) = \dfrac{\sigma^2}{N(I)}$$.
+
+The inequality shown above is particularly interesting specially if we rewrite it as
+\begin{align}
+N(I) \geq  \left(\dfrac{\sigma}{\mathrm{std}\left(d^{\star}\right)}\right)^2
+\end{align}
+which tells us the minimum number of samples in transit $$N(I)$$ that are needed in order to achieve
+a given uncertainty on the transit depth $$\mathrm{std}\left(d^{\star}\right)$$.
 
 See [https://github.com/KeplerGO/lightkurve/pull/4](https://github.com/KeplerGO/lightkurve/pull/4) for a Python implementation of these maths.
