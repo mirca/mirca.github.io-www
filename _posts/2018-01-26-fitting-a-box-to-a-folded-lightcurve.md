@@ -62,16 +62,16 @@ therefore, for fixed values of $$t_0$$ and $$w$$,
 Differentiating $$\log p({\boldsymbol{y}})$$ with respect to $$h$$, and solving
 $$\dfrac{\partial}{\partial h}\log p({\boldsymbol{y}}) = 0$$, it follows that
 \begin{align}
-    h^{\star} = \dfrac{1}{n}\left(\len(I)\cdot d + \sum_{i=1}^{n}y_i\right),\nonumber
+    h^{\star} = \dfrac{1}{n}\left(N(I)\cdot d + \sum_{i=1}^{n}y_i\right),\nonumber
 \end{align}
-where $$\len(I)$$ is the number of elements in the set $$I$$
+where $$N(I)$$ is the number of elements in the set $$I$$.
 
 Now, differentiating $$\log p({\boldsymbol{y}})$$ with respect to $$d$$, and solving
 $$\dfrac{\partial}{\partial d}\log p({\boldsymbol{y}}) = 0$$, it follows that
 \begin{align}
-    d^{\star} = \dfrac{\dfrac{1}{n}\displaystyle\sum_{i=1}^{n}y_i - \dfrac{1}{len(I)}\sum_{i \in I}y_i}{1 - \bar{w}}\nonumber,
+    d^{\star} = \dfrac{\dfrac{1}{n}\displaystyle\sum_{i=1}^{n}y_i - \dfrac{1}{N(I)}\sum_{i \in I}y_i}{1 - \bar{w}}\nonumber,
 \end{align}
-in which $$\bar{w} \triangleq \dfrac{len(I)}{n}$$.
+in which $$\bar{w} \triangleq \dfrac{N(I)}{n}$$.
 
 The formulae for $$h^{\star}$$ and $$d^{\star}$$ presented here are precisely the same as the ones
 developed by <a href="https://arxiv.org/abs/astro-ph/0206099">Kovács, Zucker, and Mazeh</a>,
