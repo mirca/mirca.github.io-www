@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Fitting a box to a folded lightcurve"
-excerpt: "Finding periods of transit-like events"
+title: "Finding periods of transit-like events"
+excerpt: ""
 modified: 2018-01-26
 tags: [box-least-squares, fitting, lightkurve, exoplanets]
 comments: true
@@ -10,13 +10,11 @@ image:
   credit: Hubble Space Telescope
 ---
 
-I'm interested in finding a fast way to compute good enough estimates of periods
-of transit-like events caused by planets.
-
-One of the prime works in this direction has been carried out by
+One of the prime works on finding a fast way to compute good enough estimates of periods
+of planet transit events was carried out by
 <a href="https://arxiv.org/abs/astro-ph/0206099">Kovács, Zucker, and Mazeh</a>.
 Their algorithm, the Box-least Squares (or BLS for short), has been very
-successful in finding planets (their paper has over 500 citations!).
+successful in finding those periodic events (their paper has over 500 citations!).
 
 In this blog post, I follow a similar approach to derive the parameters
 of a box function that "best" fits a planet transit in time series
