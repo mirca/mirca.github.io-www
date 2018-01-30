@@ -116,4 +116,4 @@ N(I) \geq  \left(\dfrac{\sigma}{\mathrm{std}\left(d^{\star}\right)}\right)^2
 which tells us the minimum number of samples in transit $$N(I)$$ that are needed in order to achieve
 a given uncertainty on the transit depth $$\mathrm{std}\left(d^{\star}\right)$$.
 
-See [https://github.com/KeplerGO/lightkurve/pull/4](https://github.com/KeplerGO/lightkurve/pull/4) for a Python implementation of these maths.
+See the next blog post for an example of these maths. :)

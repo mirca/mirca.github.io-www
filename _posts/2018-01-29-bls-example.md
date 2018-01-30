@@ -10,18 +10,13 @@ image:
   credit: Hubble Space Telescope
 ---
 
-## Sort of reproducing Example 1 of the BLS paper
-
-
-```python
-%matplotlib inline
-import matplotlib.pyplot as plt
-```
 
 ### Importing some slick packages
 
 
 ```python
+%matplotlib inline
+import matplotlib.pyplot as plt
 import numpy as np
 from lightkurve.lightcurve import fast_box_period_search, LightCurve
 ```
@@ -75,13 +70,6 @@ plt.plot(t, noise, 'ok', markersize=1)
 ```
 
 
-
-
-    [<matplotlib.lines.Line2D at 0x116628ac8>]
-
-
-
-
 ![png](../images/bls/output_12_1.png)
 
 
@@ -99,13 +87,6 @@ for n in range((3000 // period)):
 plt.figure(figsize=[10, 2])
 plt.plot(t, transit_signal, 'k')
 ```
-
-
-
-
-    [<matplotlib.lines.Line2D at 0x1167116d8>]
-
-
 
 
 ![png](../images/bls/output_15_1.png)
@@ -126,13 +107,6 @@ plt.plot(folded_signal.time, box(folded_signal.time, 0., transit_depth, -.2, 0.0
 ```
 
 
-
-
-    [<matplotlib.lines.Line2D at 0x11642e2e8>]
-
-
-
-
 ![png](../images/bls/output_18_1.png)
 
 
@@ -150,13 +124,6 @@ measured_signal = transit_signal + noise
 plt.figure(figsize=[10, 2])
 plt.plot(t, measured_signal, 'ok', markersize=1)
 ```
-
-
-
-
-    [<matplotlib.lines.Line2D at 0x1c20c76278>]
-
-
 
 
 ![png](../images/bls/output_22_1.png)
@@ -210,11 +177,6 @@ plt.ylabel("Log posterior + constant")
 
 
 
-    Text(0,0.5,'Log posterior + constant')
-
-
-
-
 ![png](../images/bls/output_30_1.png)
 
 
@@ -235,13 +197,6 @@ plt.plot(binned.time, binned.flux, 'ro', markersize=3.5)
 ```
 
 
-
-
-    [<matplotlib.lines.Line2D at 0x1c211a8860>]
-
-
-
-
 ![png](../images/bls/output_33_1.png)
 
 
@@ -256,13 +211,6 @@ results = bls.eebls(lc.time, lc.flux, np.empty(lc.time.shape),
 power, best_period, best_power, depth, q, in1, in2 = results
 plt.plot(np.arange(fmin, fmin+nf*df, df), power)
 ```
-
-
-
-
-    [<matplotlib.lines.Line2D at 0x1c212fe748>]
-
-
 
 
 ![png](../images/bls/output_35_1.png)
