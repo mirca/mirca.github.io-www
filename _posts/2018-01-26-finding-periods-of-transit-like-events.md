@@ -98,22 +98,4 @@ and after doing the maths, one arrives at
 \end{align}
 which proves that $$d^{\star}$$ is unbiased.
 
-Another interesting quantity is the variance of $$d^{\star}$$, which can be computed as
-\begin{align}
-\mathrm{var}\left(d^{\star}\right) = \dfrac{\dfrac{1}{n^2}\displaystyle\sum_{i=1}^{n}\mathrm{var}\left(y_i\right)
-                                          + \dfrac{1}{N^{2}(I)}\sum_{i \in I}\mathrm{var}\left(y_i\right)}{\left(1 - \dfrac{N(I)}{n}\right)^2},
-\end{align}
-\begin{align}
-\mathrm{var}\left(d^{\star}\right) = \sigma^2 \dfrac{\dfrac{1}{n} + \dfrac{1}{N(I)}}{\left(1 - \dfrac{N(I)}{n}\right)^2} \geq  \dfrac{\sigma^2}{N(I)}.
-\end{align}
-
-In effect, $$\displaystyle\lim_{n\rightarrow\infty} \mathrm{var}\left(d^{\star}\right) = \dfrac{\sigma^2}{N(I)}$$.
-
-The inequality shown above is particularly interesting specially if we rewrite it as
-\begin{align}
-N(I) \geq  \left(\dfrac{\sigma}{\mathrm{std}\left(d^{\star}\right)}\right)^2
-\end{align}
-which tells us the minimum number of samples in transit $$N(I)$$ that are needed in order to achieve
-a given uncertainty on the transit depth $$\mathrm{std}\left(d^{\star}\right)$$.
-
 See the next blog post for an example of these maths. :)
