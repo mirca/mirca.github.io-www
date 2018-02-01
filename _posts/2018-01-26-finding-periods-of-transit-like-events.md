@@ -16,9 +16,11 @@ of planet transit events was carried out by
 Their algorithm, the Box-least Squares (or BLS for short), has been very
 successful in finding those periodic events (their paper has over 500 citations!).
 
-In this blog post, I follow a similar approach to derive the parameters
-of a box function that "best" fits a planet transit in time series
-brightness data of stars (these are often called "lightcurves" by astronomers).
+This blog post has the goal of investigating the maths that underpin the BLS method
+from a different angle, and verify whether there are unexplored speed-ups or properties.
+More precisely, I derive the parameters of a box function that "best" fits (from a
+maximum likelihood perspective) a planet transit in time series brightness data of stars
+(these are often called "lightcurves" by astronomers).
 
 Assume the following relation for the folded lightcurve $$\boldsymbol{y} \triangleq (y_1, y_2, ..., y_n)$$
 \begin{align}
