@@ -22,21 +22,22 @@ More precisely, I derive the parameters of a box function that "best" fits (from
 maximum likelihood perspective) a planet transit in time series brightness data of stars
 (these are often called "lightcurves" by astronomers).
 
-Assume the following relation for the folded lightcurve $$\boldsymbol{y} \triangleq (y_1, y_2, ..., y_n)$$
+Assume the following relation for the folded lightcurve $$\boldsymbol{Y} \triangleq (y_1, y_2, ..., y_n)$$
 \begin{align}
-y_i = h - d\cdot \mathbb{I}(t_0 \leq t_i \leq t_0 + w) + \eta_i\nonumber,
+Y_i = h - d\cdot \mathbb{I}(t_0 \leq t_i \leq t_0 + w) + \eta_i\nonumber,
 \end{align}
 where $$\eta_i \sim \mathcal{N}(0, \sigma^2)$$, $$\sigma$$ is known, and $$\mathbb{I}$$
-is the indicator function. The parameters to be estimated are $$\left\{h, d, t_0, w\right\}$$,
-i.e. the baseline flux $$h$$, the depth of the planet transit $$d$$,
+is the indicator function. The parameters to be estimated on the basis of observations
+$$ \boldsymbol{Y} = \boldsymbol{y} $$ are $$\left\{h, d, t_0, w\right\}$$, i.e.
+the baseline flux $$h$$, the depth of the planet transit $$d$$,
 the start time of the transit $$t_0$$, and the duration or width of the transit $$w$$.
 
 Pictorially:
 
 <center><img src="../images/box.png"></center>
 
-In this setting, $$y_i \sim \mathcal{N}(h - d\cdot \mathbb{I}(t_0 \leq t_i \leq t_0 + w), \sigma^2)$$,
-and the joint probability density function of $$\boldsymbol{y}$$ is given by
+In this setting, $$Y_i \sim \mathcal{N}(h - d\cdot \mathbb{I}(t_0 \leq t_i \leq t_0 + w), \sigma^2)$$,
+and the joint probability density function of $$\boldsymbol{Y}$$ is given by
 $$
 \begin{align} p(\boldsymbol{y}) = \prod_{i=1}^{n} p(y_i) = \dfrac{1}{(2\pi\sigma^2)^{n/2}} \exp\left\{-\dfrac{1}{2\sigma^2}\left(\sum_{i \in I^c}(y_i - h)^2 + \sum_{i \in I}(y_i - (h - d))^2\right)\right\}
 \end{align}
@@ -86,12 +87,12 @@ find $$t_0$$ and $$w$$.
 
 Interestingly, the maximum likelihood estimator for the transit depth, $$d^{\star}$$,
 is an unbiased estimator for any sample size $$n$$. To see that, let's take the expected
-value of $$d^{\star}$$ with respect to the distribution of the data $$\boldsymbol{y}$$
+value of $$d^{\star}$$ with respect to the distribution of the data $$\boldsymbol{Y}$$
 \begin{align}
-\mathbb{E}\left(d^{\star}\right) = \dfrac{\dfrac{1}{n}\displaystyle\sum_{i=1}^{n}\mathbb{E}\left(y_i\right)
-                                          - \dfrac{1}{N(I)}\sum_{i \in I}\mathbb{E}\left(y_i\right)}{1 - \dfrac{N(I)}{n}},
+\mathbb{E}\left(d^{\star}\right) = \dfrac{\dfrac{1}{n}\displaystyle\sum_{i=1}^{n}\mathbb{E}\left(Y_i\right)
+                                          - \dfrac{1}{N(I)}\sum_{i \in I}\mathbb{E}\left(Y_i\right)}{1 - \dfrac{N(I)}{n}},
 \end{align}
-noting that $$\mathbb{E}\left(y_i\right) = h - d\cdot \mathbb{I}(t_0 \leq t_i \leq t_0 + w)$$,
+noting that $$\mathbb{E}\left(Y_i\right) = h - d\cdot \mathbb{I}(t_0 \leq t_i \leq t_0 + w)$$,
 and after doing the maths, one arrives at
 \begin{align}
 \mathbb{E}\left(d^{\star}\right) = d,
@@ -105,7 +106,7 @@ d^{\star} = \dfrac{\dfrac{1}{n}\displaystyle\sum_{i \in I^c}y_i + \left(\dfrac{1
 \end{align}
 then, it follows that
 \begin{align}
-\mathrm{var}\left(d^{\star}\right) = \dfrac{\dfrac{1}{n^2}\displaystyle\sum_{i \in I^c}\mathrm{var}\left(y_i\right) + \left(\dfrac{1}{n} - \dfrac{1}{N(I)}\right)^2\sum_{i\in I}\mathrm{var}\left(y_i\right)}{\left(1 - \dfrac{N(I)}{n}\right)^2},
+\mathrm{var}\left(d^{\star}\right) = \dfrac{\dfrac{1}{n^2}\displaystyle\sum_{i \in I^c}\mathrm{var}\left(Y_i\right) + \left(\dfrac{1}{n} - \dfrac{1}{N(I)}\right)^2\sum_{i\in I}\mathrm{var}\left(Y_i\right)}{\left(1 - \dfrac{N(I)}{n}\right)^2},
 \end{align}
 after algebraic simplifications
 \begin{align}
