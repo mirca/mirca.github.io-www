@@ -98,4 +98,26 @@ and after doing the maths, one arrives at
 \end{align}
 which proves that $$d^{\star}$$ is unbiased.
 
+Another interesting statistical figure to look at is the variance of $$d^{\star}$$.
+Before, we derive the variance of $$d^{\star}$$, note that $$d^{\star}$$ can be written
+as
+\begin{align}
+d^{\star} = \dfrac{\dfrac{1}{n}\displaystyle\sum_{i \in I^c}y_i + \left(\dfrac{1}{n} - \dfrac{1}{N(I)}\right)\sum_{i\in I}y_i}{1 - \dfrac{N(I)}{n}}
+\end{align}
+then, it follows that
+\begin{align}
+\mathrm{var}\left(d^{\star}\right) = \dfrac{\dfrac{1}{n^2}\displaystyle\sum_{i \in I^c}\mathrm{var}\left(y_i\right) + \left(\dfrac{1}{n} - \dfrac{1}{N(I)}\right)^2\sum_{i\in I}\left(y_i\right)}{\left(1 - \dfrac{N(I)}{n}\right)^2},
+\end{align}
+after algebraic simplifications
+\begin{align}
+\mathrm{var}\left(d^{\star}\right) = \dfrac{\sigma^2}{N(I)\left(1 - \dfrac{N(I)}{n}\right)} \geq \dfrac{\sigma^2}{N(I)}
+\end{align}
+
+The inequality shown above is particularly interesting specially if we rewrite it as
+\begin{align}
+N(I) \geq  \left(\dfrac{\sigma}{\mathrm{std}\left(d^{\star}\right)}\right)^2
+\end{align}
+which tells us the minimum number of samples in transit $$N(I)$$ that are needed in order to achieve
+a given uncertainty on the transit depth $$\mathrm{std}\left(d^{\star}\right)$$.
+
 See the next blog post for an example of these maths. :)
