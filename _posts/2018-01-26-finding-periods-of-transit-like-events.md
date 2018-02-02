@@ -106,7 +106,7 @@ d^{\star} = \dfrac{\dfrac{1}{n}\displaystyle\sum_{i \in I^c}y_i + \left(\dfrac{1
 \end{align}
 then, it follows that
 \begin{align}
-\mathrm{var}\left(d^{\star}\right) = \dfrac{\dfrac{1}{n^2}\displaystyle\sum_{i \in I^c}\mathrm{var}\left(y_i\right) + \left(\dfrac{1}{n} - \dfrac{1}{N(I)}\right)^2\sum_{i\in I}\left(y_i\right)}{\left(1 - \dfrac{N(I)}{n}\right)^2},
+\mathrm{var}\left(d^{\star}\right) = \dfrac{\dfrac{1}{n^2}\displaystyle\sum_{i \in I^c}\mathrm{var}\left(y_i\right) + \left(\dfrac{1}{n} - \dfrac{1}{N(I)}\right)^2\sum_{i\in I}\mathrm{var}\left(y_i\right)}{\left(1 - \dfrac{N(I)}{n}\right)^2},
 \end{align}
 after algebraic simplifications
 \begin{align}
