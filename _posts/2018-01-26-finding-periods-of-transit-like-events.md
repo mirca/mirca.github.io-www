@@ -22,7 +22,7 @@ More precisely, I derive the parameters of a box function that "best" fits (from
 maximum likelihood perspective) a planet transit in time series brightness data of stars
 (these are often called "lightcurves" by astronomers).
 
-Assume the following relation for the folded lightcurve $$\boldsymbol{Y} \triangleq (y_1, y_2, ..., y_n)$$
+Assume the following relation for the folded lightcurve $$\boldsymbol{Y} \triangleq (Y_1, Y_2, ..., Y_n)$$
 \begin{align}
 Y_i = h - d\cdot \mathbb{I}(t_0 \leq t_i \leq t_0 + w) + \eta_i\nonumber,
 \end{align}
