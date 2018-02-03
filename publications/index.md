@@ -6,9 +6,17 @@ excerpt: "A List of Publications"
 
 # 2018
 
+## Journals
+
+* <p style='text-align: justify;'> <b>The Astropy Collaboration</b>, <i> et al.</i>
+<b>The Astropy Project: building an inclusive, open-science project and status of the
+v2.0 core package.</b>
+<i><a href="https://arxiv.org/pdf/1801.02634.pdf">https://arxiv.org/pdf/1801.02634.pdf</a></i>
+</p>
+
 ## Conferences
 
-* <p style='text-align: justify;'> <b>CARDOSO, J. V. M.</b>, <i>et. al.</i> <b>A PSF photometry tool for NASA's Kepler, K2, and TESS Missions (abstract)</b>. <i>231st American Astronomical Society Meeting</i>, National Harbor, MD, USA.</p>
+* <p style='text-align: justify;'> <b>CARDOSO, J. V. M.</b>, <i>et al.</i> <b>A PSF photometry tool for NASA's Kepler, K2, and TESS Missions (abstract)</b>. <i>231st American Astronomical Society Meeting</i>, National Harbor, MD, USA.</p>
 
 
 # 2017
