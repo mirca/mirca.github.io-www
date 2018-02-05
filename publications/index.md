@@ -10,7 +10,7 @@ excerpt: "A List of Publications"
 
 * <p style='text-align: justify;'> The Astropy Collaboration, <i> et al.</i>
 <b>The Astropy Project: building an inclusive, open-science project and status of the
-v2.0 core package.</b><i><a href="https://arxiv.org/pdf/1801.02634.pdf">https://arxiv.org/pdf/1801.02634.pdf</a></i> </p>
+v2.0 core package.</b> <i><a href="https://arxiv.org/pdf/1801.02634.pdf">https://arxiv.org/pdf/1801.02634.pdf</a></i> </p>
 
 ## Conferences
 
