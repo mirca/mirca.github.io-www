@@ -100,7 +100,7 @@ and after doing the maths, one arrives at
 which proves that $$d^{\star}$$ is unbiased.
 
 Another interesting statistical figure to look at is the variance of $$d^{\star}$$.
-Note that $$d^{\star}$$ can be rewritten as
+Before proceeding, note that $$d^{\star}$$ can be rewritten as
 \begin{align}
 d^{\star} = \dfrac{\dfrac{1}{n}\displaystyle\sum_{i \in I^c}y_i + \left(\dfrac{1}{n} - \dfrac{1}{N(I)}\right)\sum_{i\in I}y_i}{1 - \dfrac{N(I)}{n}}
 \end{align}
