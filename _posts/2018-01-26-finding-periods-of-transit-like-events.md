@@ -126,4 +126,7 @@ Another interesting figure of merit is the assymptotic ratio
 \end{align}
 usually called signal-to-noise ratio by astronomers.
 
+More broadly, note that $$d^{\star} \sim \mathcal{N}\left(d, \dfrac{\sigma^2}{N(I)\left(1 - \dfrac{N(I)}{n}\right)}\right)$$.
+As a result, various others interesting quantities may be derived ;)
+
 See the next blog post for an example of these maths. :)
