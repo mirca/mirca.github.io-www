@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Finding periods of transit-like events"
-excerpt: ""
+excerpt: "Discussions about the Kovacs et al algorithm"
 modified: 2018-01-26
 tags: [box-least-squares, fitting, lightkurve, exoplanets]
 comments: true
