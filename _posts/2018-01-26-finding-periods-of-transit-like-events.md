@@ -122,7 +122,7 @@ a given uncertainty on the transit depth $$\mathrm{std}\left(d^{\star}\right)$$.
 
 Another interesting figure of merit is the assymptotic ratio
 \begin{align}
-\dfrac{\mathbb{E}\left(d^{\star}\right)}{\underset_{n\rightarrow\infty}\sqrt{\mathrm{var}\left(d^{\star}\right)}} = \dfrac{d\sqrt{N(I)}}{\sigma}
+\lim_{n\rightarrow\infty} \dfrac{\mathbb{E}\left(d^{\star}\right)}{\sqrt{\mathrm{var}\left(d^{\star}\right)}} = \dfrac{d\sqrt{N(I)}}{\sigma}
 \end{align}
 usually called signal-to-noise ratio by astronomers.
 
