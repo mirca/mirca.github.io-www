@@ -39,11 +39,11 @@
         <li> <i>I got selected for the Google Summer of Code 2016 with AstroPy!</i>
         <li> <i>The paper "An Approximate Exponentiated Weibull Joint Envelope-Phase Distribution"
             was accepted to the IEEE Symposium on Antennas and Propagation 2016, and I was
-            awarded an IEEE travel grant!</i>
+            awarded a IEEE travel grant!</i>
     </ul>
 
     <h3><a href="{{ site.url}}/posts/">Recent Posts</a></h3>
-    {% for post in site.posts limit:5 %}
+    {% for post in site.posts limit:3 %}
     <article>
       {% if post.link %}
         <h2 class="link-post"><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <a href="{{ post.link }}" target="_blank" title="{{ post.title }}"><i class="fa fa-link"></i></a></h2>
