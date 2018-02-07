@@ -120,4 +120,10 @@ N(I) \geq  \left(\dfrac{\sigma}{\mathrm{std}\left(d^{\star}\right)}\right)^2
 which tells us the minimum number of samples in transit $$N(I)$$ that are needed in order to achieve
 a given uncertainty on the transit depth $$\mathrm{std}\left(d^{\star}\right)$$.
 
+Another interesting figure of merit is the assymptotic ratio
+\begin{align}
+\dfrac{\mathbb{E}\left(d^{\star}\right)}{\underset_{n\rightarrow\infty}\sqrt{\mathrm{var}\left(d^{\star}\right)}} = \dfrac{d\sqrt{N(I)}}{\sigma}
+\end{align}
+usually called signal-to-noise ratio by astronomers.
+
 See the next blog post for an example of these maths. :)
