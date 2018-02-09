@@ -60,9 +60,9 @@ mentored by
 </p>
 
 <p style='text-align: justify;'>
-Beginning 2017, I started as an intern for the K2 Mission at NASA Ames,
-in Silicon Valley, USA, working on data analysis problems together with
-<a href="http://geert.io">Dr. Geert Barentsen</a>,
+In 2017, I was extremely fortunate to join NASA's K2 Mission as an intern
+in Silicon Valley, USA. During my time at NASA, I worked on software development and
+data analysis problems under the mentorship of <a href="http://geert.io">Dr. Geert Barentsen</a>,
 <a href="http://gully.github.io">Dr. Michael Gully-Santiago</a>,
 <a href="https://christinasupportsscience.blogspot.com">Dr. Christina Hedges</a>,
 and
