@@ -19,7 +19,7 @@ and <u>Dr. Danilo Regis</u>.
 </p>
 
 <p style='text-align: justify;'>
-In 2014, I was awarded a Brazilian Scientific Mobility Program scholarship to study one year abroad
+In 2014, I was awarded a <u>Brazilian Scientific Mobility Program scholarship</u> to study one year abroad
 in The Catholic University of America, Washington DC, USA. In that opportunity, I took a variety
 of classes among which my favorites were Stochastic Processes, Random Signal Theory, Information
 Theory, and Estimation and Detection Theory which are at the core of Machine Learning and
@@ -27,13 +27,12 @@ Probabilistic algorithms.
 </p>
 
 <p style='text-align: justify;'>
-In the Summer of 2015, I had the privilege to be an undergraduate guest researcher at the
-Nanofabrication Research Group, National Institute of Standards and Technology, USA, under
-the mentorship of
-<a href="https://www.nist.gov/people/marcelo-davanco">Dr. Marcelo Davanço</a>.
-In that opportunity, I was able to apply the theory
-I learnt to implement routines in MATLAB for single molecule localization microscopy and
-fluorescense localization imaging microscopy.
+In the Summer of 2015, I had the privilege to be an <u>undergraduate guest researcher</u> at the
+Nanofabrication Research Group,
+<a href="https://www.nist.gov/cnst">National Institute of Standards and Technology, USA</a>, under
+the mentorship of <a href="https://www.nist.gov/people/marcelo-davanco">Dr. Marcelo Davanço</a>.
+In that opportunity, I was able to apply the theory I learnt to implement routines in MATLAB for
+single molecule localization microscopy and fluorescense localization imaging microscopy.
 More precisely, I developed Maximum Likelihood Estimators (along with Fisher Information Matrices)
 to localize and measure the brightness of nanoemitters (aka Point Spread Function photometry, in the
 astronomy community). This work was part of bigger projects which were later published
@@ -42,17 +41,18 @@ and <a href="http://aip.scitation.org/doi/full/10.1063/1.4976578"><i>Review of S
 </p>
 
 <p style='text-align: justify;'>
-In the Spring of 2016 I went back to school in Brazil and got an undergraduate teaching assistant
-scholarship for the course of Probability and Statistics for Electrical Engineering and
-Computer Science. Besides helping students understand basics concepts of probability theory
+In the Spring of 2016, I went back to school in Brazil and got an <u>undergraduate teaching assistant</u>
+scholarship for the course of <u>Probability and Statistics for Electrical Engineering and
+Computer Science</u>. Besides helping students understand basics concepts of probability theory
 during office hours, I also gave weekly lectures during which I solved exercises together with
 the students.
 </p>
 
 <p style='text-align: justify;'>
-During the Summer of 2016 I took a gap semester in my undergraduate studies to become a student
-software developer for the Astropy Project as part of the Google Summer of Code program.
-In that occasion, I developed Python code to perform both unsupervised clustering and regression
+During the Summer of 2016, I took a gap semester in my undergraduate studies to become a <u>software
+developer</u> for the <a href="https://www.astropy.org">AstroPy Project</a> as part of the
+<a href="https://summerofcode.withgoogle.com">Google Summer of Code</a> program. In that
+occasion, I developed Python code to perform both unsupervised clustering and regression
 of Gaussian Mixture Models for Point Spread Function photometry. I had the privilege to be
 mentored by
 <a href="http://space.mit.edu/~guenther/">Dr. Hans Moritz Gunther</a>,
@@ -61,22 +61,23 @@ mentored by
 </p>
 
 <p style='text-align: justify;'>
-In 2017, I was extremely fortunate to join NASA's K2 Mission as an intern
-in Silicon Valley, USA. During my time at NASA, I worked on software development and
-data analysis problems under the mentorship of <a href="http://geert.io">Dr. Geert Barentsen</a>,
+In 2017, I was extremely fortunate to join
+<a href="https://keplerscience.arc.nasa.gov">NASA's K2 Mission</a> as an intern
+in Silicon Valley, USA. During my time at NASA, I worked on <u>software development and
+data analysis</u> problems under the mentorship of <a href="http://geert.io">Dr. Geert Barentsen</a>,
 <a href="http://gully.github.io">Dr. Michael Gully-Santiago</a>,
 <a href="https://christinasupportsscience.blogspot.com">Dr. Christina Hedges</a>,
 and
 <a href="http://annmariecody.com">Dr. Ann Marie Cody</a>.
 </p>
 
-In my spare time, I enjoy taking my dog Pluto for a walk, drinking
-a good coffee, playing football, writing code for open source projects,
-playing chess, and reading books.
+In my spare time, I enjoy taking my dog Pluto for a walk, studying Mandarin,
+drinking Brazilian good coffee, playing football, writing code for open
+source projects, playing chess, and reading historical and technical maths books.
 
 <i>Fun fact</i>: I was featured IEEE Student of the Week in the
 <a href="https://www.facebook.com/IEEEStudents/photos/a.285696968155912.70076.236454509746825/769475893111348/?type=1&theater">IEEE Students Facebook webpage</a>. \o/
 
-If you read til here, enjoy a photo of Pluto ;-):
+Enjoy a photo of my dog Pluto ;-)
 <br>
 <center><img src="../images/pluto/pluto.jpg" style="width:237px;height:320px;"></center>
