@@ -15,7 +15,7 @@ I'm an undergraduate student majoring in Electrical Engineering at the Federal U
 Campina Grande, Brazil. Since my second semester in college, I've been affiliated with the
 <a href="https://www.iecom.org.br">Institute for Advanced Studies in Communications</a> mentored by
 <a href="https://scholar.google.com.br/citations?user=NBSmPdAAAAAJ&hl=en">Dr. Marcelo Alencar</a>
-and <a href="">Dr. Danilo Regis</a>.
+and <u>Dr. Danilo Regis</u>.
 </p>
 
 <p style='text-align: justify;'>
