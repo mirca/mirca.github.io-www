@@ -18,7 +18,7 @@ image:
 %matplotlib inline
 import matplotlib.pyplot as plt
 import numpy as np
-from lightkurve.lightcurve import fast_box_period_search, LightCurve
+from lightkurve.lightcurve import iterative_box_period_search, LightCurve
 ```
 
 ### Defining our sweet box function
@@ -144,8 +144,8 @@ Run:
 
 
 ```python
-logp, periods, bestperiod = fast_box_period_search(lc, min_period=1., max_period=10., nperiods=1000,
-                                                    period_scale='linear')
+logp, periods, bestperiod = iterative_box_period_search(lc, min_period=1., max_period=10., nperiods=1000,
+                                                        period_scale='linear')
 ```
 
       0%|          | 0/1000 [00:00<?, ?it/s]/Users/jvmirca/anaconda3/lib/python3.6/site-packages/scipy/optimize/optimize.py:1850: RuntimeWarning: invalid value encountered in double_scalars
