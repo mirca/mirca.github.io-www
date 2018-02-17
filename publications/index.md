@@ -8,13 +8,24 @@ excerpt: "A List of Publications"
 
 ## Journals
 
+* <p style='text-align: justify;'> <b>QUEIROZ, W., J., L, ALMEIDA, D., B., T., MADEIRO, F., CARDOSO, J., V., M., PEREIRA, D., F., L., ALENCAR, M., S.</b>
+<b>New Closed-Form Expressions for SNR Estimates of Nakagami Fading Channels by the Method of Moments</b>
+<i>To appear in Springer Telecommunications and Systems</i> </p>
+
+* <p style='text-align: justify;'> <b>CODY, A., BARENTSEN, G., HEDGES, C., L., GULLY-SANTIAGO, M., CARDOSO, J., V., M.</b>
+<b>K2SUPERSTAMP: The Release of Calibrated Mosaics for the Kepler/K2 Mission</b>
+<i>Research Notes of the American Astronomical Society.
+ <a href="http://iopscience.iop.org/article/10.3847/2515-5172/aaac30">http://iopscience.iop.org/article/10.3847/2515-5172/aaac30</a></i>
+</p>
+
 * <p style='text-align: justify;'> The Astropy Collaboration, <i> et al.</i>
 <b>The Astropy Project: building an inclusive, open-science project and status of the
 v2.0 core package.</b> <i><a href="https://arxiv.org/pdf/1801.02634.pdf">https://arxiv.org/pdf/1801.02634.pdf</a></i> </p>
 
 ## Conferences
 
-* <p style='text-align: justify;'> <b>CARDOSO, J. V. M.</b>, <i>et al.</i> <b>A PSF photometry tool for NASA's Kepler, K2, and TESS Missions (abstract)</b>. <i>231st American Astronomical Society Meeting</i>, National Harbor, MD, USA.</p>
+* <p style='text-align: justify;'> <b>CARDOSO, J. V. M.</b>, <i>et al.</i> <b>A PSF photometry tool for NASA's Kepler, K2, and TESS Missions (abstract)</b>.
+<i>231st American Astronomical Society Meeting</i>, National Harbor, MD, USA.</p>
 
 
 # 2017
