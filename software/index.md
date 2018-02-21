@@ -14,13 +14,16 @@ more than <a href="https://spectrum.ieee.org/computing/software/the-2017-top-pro
 Python has a mature set of general purposes libraries that aid scientists extract the
 best out of their data.
 
-numpy (numerical computation), scipy (scientific programming), matplotlib (visualization),
-pandas (data processing), and scikit-learn (data science/machine learning), are only
+Numpy (numerical computation), Scipy (scientific programming), Matplotlib (visualization),
+Pandas (data processing), and Scikit-learn (data science/machine learning), are only
 a few of the awesome myriad of open source libraries developed in Python.
 
-Most of the success around Python and its libraries is due to their fast-growing,
-energetic, and welcoming communities. Those libraries I mentioned are developed in a
-daily basis by experts from academia and industry and also by students.
+Part of the success around Python and its libraries is due to their
+fast-growing, energetic, and welcoming
+<a href="http://neopythonic.blogspot.com/2016/04/kings-day-speech.html">communities</a>.
+Those libraries I mentioned are developed in a daily basis by experts from
+academia and industry (and also by students through programs like
+<a href="https://https://summerofcode.withgoogle.com">Google Summer of Code</a>).
 
 In the past years, I've been involved with open source software development
 primarily thanks to Google, GitHub, and NASA ❤️.
