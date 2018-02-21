@@ -49,26 +49,26 @@ the students.
 </p>
 
 <p style='text-align: justify;'>
-During the Summer of 2016, I took a gap semester in my undergraduate studies to become a <u>software
-developer</u> for the <a href="https://www.astropy.org">AstroPy Project</a> as part of the
-<a href="https://summerofcode.withgoogle.com">Google Summer of Code</a> program. In that
-occasion, I developed Python code to perform both unsupervised clustering and regression
-of Gaussian Mixture Models for Point Spread Function photometry. I had the privilege to be
-mentored by
+During the Summer of 2016, I took a gap semester in my undergraduate studies to become a
+<u>software developer</u> for the <a href="https://www.astropy.org">AstroPy Project</a>
+as part of the <a href="https://summerofcode.withgoogle.com">Google Summer of Code</a>
+program. In that occasion, I developed Python code to perform both unsupervised
+clustering and regression of Gaussian Mixture Models for Point Spread Function
+photometry. I had the privilege to be mentored by
 <a href="http://space.mit.edu/~guenther/">Dr. Hans Moritz Gunther</a>,
 <a href="https://github.com/bsipocz">Dr. Brigitta Sipocz</a>, and
 <a href="http://www.stsci.edu/~etollerud/">Dr. Erik Tollerud</a>.
 </p>
 
 <p style='text-align: justify;'>
-In 2017, I was extremely fortunate to join
+In 2017, I was extremely fortunate and privileged to join
 <a href="https://keplerscience.arc.nasa.gov">NASA's K2 Mission</a> as an intern
-in Silicon Valley, USA. During my time at NASA, I worked on <u>software development and
-data analysis</u> problems under the mentorship of <a href="http://geert.io">Dr. Geert Barentsen</a>,
-<a href="http://gully.github.io">Dr. Michael Gully-Santiago</a>,
+in Silicon Valley, USA. During my time at NASA, I worked on
+<a href="https://www.github.com/KeplerGO">software development and scientific
+computing</a> problems under the mentorship of <a href="http://geert.io">Dr.
+Geert Barentsen</a>, <a href="http://gully.github.io">Dr. Michael Gully-Santiago</a>,
 <a href="https://christinasupportsscience.blogspot.com">Dr. Christina Hedges</a>,
-and
-<a href="http://annmariecody.com">Dr. Ann Marie Cody</a>.
+and <a href="http://annmariecody.com">Dr. Ann Marie Cody</a>.
 </p>
 
 In my spare time, I enjoy taking my dog Pluto for a walk, studying Mandarin,
