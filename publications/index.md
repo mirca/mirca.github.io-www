@@ -8,15 +8,14 @@ excerpt: "A List of Publications"
 
 ## Journals
 
-* <p style='text-align: justify;'> <b>QUEIROZ, W., J., L, ALMEIDA, D., B., T., MADEIRO, F., CARDOSO, J., V., M., PEREIRA, D., F., L., ALENCAR, M., S.</b>
-<b>New Closed-Form Expressions for SNR Estimates of Nakagami Fading Channels by the Method of Moments</b>
+* <p style='text-align: justify;'> QUEIROZ, W., J., L, ALMEIDA, D., B., T., MADEIRO, F., <b>CARDOSO, J., V., M.</b>, PEREIRA, D., F., L., ALENCAR, M., S.
+<b>New Closed-Form Expressions for SNR Estimates of Nakagami Fading Channels by the Method of Moments.</b>
 <i>To appear in Springer Telecommunications and Systems</i> </p>
 
-* <p style='text-align: justify;'> <b>CODY, A., BARENTSEN, G., HEDGES, C., L., GULLY-SANTIAGO, M., CARDOSO, J., V., M.</b>
-<b>K2SUPERSTAMP: The Release of Calibrated Mosaics for the Kepler/K2 Mission</b>
+* <p style='text-align: justify;'> CODY, A., BARENTSEN, G., HEDGES, C., L., GULLY-SANTIAGO, M., <b>CARDOSO, J., V., M.</b>
+<b>K2SUPERSTAMP: The Release of Calibrated Mosaics for the Kepler/K2 Mission.</b>
 <i>Research Notes of the American Astronomical Society.
- <a href="http://iopscience.iop.org/article/10.3847/2515-5172/aaac30">http://iopscience.iop.org/article/10.3847/2515-5172/aaac30</a></i>
-</p>
+<a href="http://iopscience.iop.org/article/10.3847/2515-5172/aaac30">http://iopscience.iop.org/article/10.3847/2515-5172/aaac30</a></i></p>
 
 * <p style='text-align: justify;'> The Astropy Collaboration, <i> et al.</i>
 <b>The Astropy Project: building an inclusive, open-science project and status of the
