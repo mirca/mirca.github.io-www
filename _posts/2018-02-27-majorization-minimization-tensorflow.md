@@ -2,14 +2,13 @@
 layout: post
 title: "L1 optimization using Majorization-Minimization in TensorFlow"
 excerpt: ""
-modified: 2018-01-29
+modified: 2018-02-27
 tags: [optimization, majorization-minimization, tensorflow, python]
 comments: true
 image:
   feature: gsoc_post.jpg
   credit: Hubble Space Telescope
 ---
-
 
 In this notebook I will show a simple example which demonstrates the power of a really clever optimization
 technique, called Majorization-Minimization (MM). With MM, one is able to transform a non-differentiable
@@ -69,6 +68,8 @@ plt.step(np.arange(len(x_data)), y_data)
 plt.ylabel("Data")
 plt.xlabel("Bin number")
 ```
+
+
 
 
 ![png](../images/mm/output_11_1.png)
@@ -137,6 +138,7 @@ plt.xlabel("Bin number")
 
 
 
+
 ![png](../images/mm/output_20_1.png)
 
 
@@ -167,13 +169,12 @@ m_n, b_n = np.abs(np.random.normal()), np.abs(np.random.normal()) # initial gues
 ```
 
 A possible surrogate function for the L1-norm is given as
-$$
 \begin{align}
-    g(\mathbf{r} | \mathbf{r}_t) = \dfrac{1}{2}\dfrac{||\mathbf{r}||^{2}_2}{||\mathbf{r}_n||_1} + \dfrac{1}{2}||\mathbf{r}_n||_1
+    g(\mathbf{r} | \mathbf{r}_n) = \dfrac{1}{2}\dfrac{||\mathbf{r}||^{2}_2}{||\mathbf{r}_n||_1} + \dfrac{1}{2}||\mathbf{r}_n||_1
 \end{align}
-$$
-which majorizes $$||\mathbf{r}||_{1}$$ at the point $$\mathbf{r}_n$$.
-See **Example 6** of [Majorization-Minimization Algorithms in Signal Processing, Communications, and Machine Learning](http://ieeexplore.ieee.org/document/7547360/) by Y. Sun, P. Babu, and D. P. Palomar.
+which majorizes $||\mathbf{r}||_{1}$ at the point $\mathbf{r}_n$. See **Example 6** of [Majorization-Minimization Algorithms in Signal Processing, Communications, and Machine Learning](http://ieeexplore.ieee.org/document/7547360/) by Y. Sun, P. Babu, and D. P. Palomar.
+
+Let's code up this surrogate function:
 
 
 ```python
@@ -182,6 +183,9 @@ abs_r_n = tf.abs(y - mean((m_n, b_n))) # abs value of the residual vector at the
 negloglike_surrogate = .5 * tf.reduce_sum(r * r / abs_r_n + abs_r_n) # surrogate function
 grad = tf.gradients(negloglike_surrogate, [m, b]) # gradient of the surrogate function
 ```
+
+Now we can iterate on minimizing $g(\mathbf{r} | \mathbf{r}_n)$ with respect to $(m, b)$ and updating
+$(m_n, b_n)$ to the current optimal value.
 
 
 ```python
@@ -193,10 +197,9 @@ i = 0
 while i < 20:
     optimizer.minimize(session=sess, feed_dict={x: x_data, y: y_data})
     m_opt, b_opt = sess.run(m), sess.run(b)
-    m_n_opt, b_n_opt = m_n, b_n
     grad_opt = sess.run(grad, feed_dict={x: x_data, y: y_data})
-    print("Solution: [{}, {}]\nPrevious solution: [{}, {}]\nGradient at solution: [{}]"
-          .format(m_opt, b_opt, m_n_opt, b_n_opt, grad_opt))
+    print("Solution: [{}, {}]\nPrevious solution: [{}, {}]\nGradient at solution: {}"
+          .format(m_opt, b_opt, m_n, b_n, grad_opt))
     m_n, b_n = m_opt, b_opt
     # update surrogate function
     r = y - mean((m, b))
@@ -214,7 +217,7 @@ while i < 20:
       Number of functions evaluations: 7
     Solution: [1.4496763621233597, 10.485754001760487]
     Previous solution: [2.16323594928069, 1.336527949436392]
-    Gradient at solution: [[2.2322854675849158e-10, 4.0236924903069848e-11]]
+    Gradient at solution: [2.2322854675849158e-10, 4.0236924903069848e-11]
     INFO:tensorflow:Optimization terminated with:
       Message: Optimization terminated successfully.
       Objective function value: 498.319702
@@ -222,7 +225,7 @@ while i < 20:
       Number of functions evaluations: 5
     Solution: [1.4990495336473753, 10.570419248794593]
     Previous solution: [1.4496763621233597, 10.485754001760487]
-    Gradient at solution: [[8.6153306710912148e-14, 1.7763568394002505e-15]]
+    Gradient at solution: [8.6153306710912148e-14, 1.7763568394002505e-15]
     INFO:tensorflow:Optimization terminated with:
       Message: Optimization terminated successfully.
       Objective function value: 484.897254
@@ -230,7 +233,7 @@ while i < 20:
       Number of functions evaluations: 5
     Solution: [1.6671918978343137, 10.626856860059574]
     Previous solution: [1.4990495336473753, 10.570419248794593]
-    Gradient at solution: [[1.1759482276829658e-12, -3.7214675785435247e-12]]
+    Gradient at solution: [1.1759482276829658e-12, -3.7214675785435247e-12]
     INFO:tensorflow:Optimization terminated with:
       Message: Optimization terminated successfully.
       Objective function value: 469.530050
@@ -238,7 +241,7 @@ while i < 20:
       Number of functions evaluations: 5
     Solution: [1.8312888850551365, 10.691934629932456]
     Previous solution: [1.6671918978343137, 10.626856860059574]
-    Gradient at solution: [[-1.1368683772161603e-13, 1.2700951401711791e-13]]
+    Gradient at solution: [-1.1368683772161603e-13, 1.2700951401711791e-13]
     INFO:tensorflow:Optimization terminated with:
       Message: Optimization terminated successfully.
       Objective function value: 457.606473
@@ -246,7 +249,7 @@ while i < 20:
       Number of functions evaluations: 5
     Solution: [1.8876297148592471, 10.86312811769006]
     Previous solution: [1.8312888850551365, 10.691934629932456]
-    Gradient at solution: [[1.5276668818842154e-13, 6.6613381477509392e-14]]
+    Gradient at solution: [1.5276668818842154e-13, 6.6613381477509392e-14]
     INFO:tensorflow:Optimization terminated with:
       Message: Optimization terminated successfully.
       Objective function value: 453.130012
@@ -254,7 +257,7 @@ while i < 20:
       Number of functions evaluations: 5
     Solution: [1.9013590751208442, 10.864915782095013]
     Previous solution: [1.8876297148592471, 10.86312811769006]
-    Gradient at solution: [[4.4408920985006262e-15, 1.2856382625159313e-13]]
+    Gradient at solution: [4.4408920985006262e-15, 1.2856382625159313e-13]
     INFO:tensorflow:Optimization terminated with:
       Message: Optimization terminated successfully.
       Objective function value: 451.957296
@@ -262,7 +265,7 @@ while i < 20:
       Number of functions evaluations: 5
     Solution: [1.9377806534119828, 10.857428415441738]
     Previous solution: [1.9013590751208442, 10.864915782095013]
-    Gradient at solution: [[-2.7355895326763857e-13, -1.389999226830696e-13]]
+    Gradient at solution: [-2.7355895326763857e-13, -1.389999226830696e-13]
     INFO:tensorflow:Optimization terminated with:
       Message: Optimization terminated successfully.
       Objective function value: 451.137567
@@ -270,7 +273,7 @@ while i < 20:
       Number of functions evaluations: 5
     Solution: [1.9365138465488718, 10.875750232024895]
     Previous solution: [1.9377806534119828, 10.857428415441738]
-    Gradient at solution: [[-1.1759482276829658e-12, -6.8389738316909643e-13]]
+    Gradient at solution: [-1.1759482276829658e-12, -6.8389738316909643e-13]
     INFO:tensorflow:Optimization terminated with:
       Message: Optimization terminated successfully.
       Objective function value: 450.821659
@@ -278,7 +281,7 @@ while i < 20:
       Number of functions evaluations: 5
     Solution: [1.9563832800773513, 10.858849543378488]
     Previous solution: [1.9365138465488718, 10.875750232024895]
-    Gradient at solution: [[3.2862601528904634e-13, 2.2559731860383181e-13]]
+    Gradient at solution: [3.2862601528904634e-13, 2.2559731860383181e-13]
     INFO:tensorflow:Optimization terminated with:
       Message: Optimization terminated successfully.
       Objective function value: 450.245299
@@ -286,7 +289,7 @@ while i < 20:
       Number of functions evaluations: 5
     Solution: [1.9797591276137347, 10.84992912479451]
     Previous solution: [1.9563832800773513, 10.858849543378488]
-    Gradient at solution: [[2.5757174171303632e-13, 2.1671553440683056e-13]]
+    Gradient at solution: [2.5757174171303632e-13, 2.1671553440683056e-13]
     INFO:tensorflow:Optimization terminated with:
       Message: Optimization terminated successfully.
       Objective function value: 449.814703
@@ -294,7 +297,7 @@ while i < 20:
       Number of functions evaluations: 5
     Solution: [1.9942019057908564, 10.85391260279468]
     Previous solution: [1.9797591276137347, 10.84992912479451]
-    Gradient at solution: [[2.7622348852673895e-13, 4.4630965589931293e-13]]
+    Gradient at solution: [2.7622348852673895e-13, 4.4630965589931293e-13]
     INFO:tensorflow:Optimization terminated with:
       Message: Optimization terminated successfully.
       Objective function value: 449.596724
@@ -302,7 +305,7 @@ while i < 20:
       Number of functions evaluations: 5
     Solution: [1.9951841974758429, 10.863077741275276]
     Previous solution: [1.9942019057908564, 10.85391260279468]
-    Gradient at solution: [[-1.7408297026122455e-13, -2.8776980798284058e-13]]
+    Gradient at solution: [-1.7408297026122455e-13, -2.8776980798284058e-13]
     INFO:tensorflow:Optimization terminated with:
       Message: Optimization terminated successfully.
       Objective function value: 449.550010
@@ -310,7 +313,7 @@ while i < 20:
       Number of functions evaluations: 5
     Solution: [1.9999276666195624, 10.856404281113537]
     Previous solution: [1.9951841974758429, 10.863077741275276]
-    Gradient at solution: [[4.4870773763250327e-12, 5.1070259132757201e-13]]
+    Gradient at solution: [4.4870773763250327e-12, 5.1070259132757201e-13]
     INFO:tensorflow:Optimization terminated with:
       Message: Optimization terminated successfully.
       Objective function value: 449.512057
@@ -318,7 +321,7 @@ while i < 20:
       Number of functions evaluations: 5
     Solution: [2.0073082918852077, 10.845620946027948]
     Previous solution: [1.9999276666195624, 10.856404281113537]
-    Gradient at solution: [[-2.5579538487363607e-13, -2.0019541580040823e-12]]
+    Gradient at solution: [-2.5579538487363607e-13, -2.0019541580040823e-12]
     INFO:tensorflow:Optimization terminated with:
       Message: Optimization terminated successfully.
       Objective function value: 449.473694
@@ -326,7 +329,7 @@ while i < 20:
       Number of functions evaluations: 5
     Solution: [2.0167765090766285, 10.828229844857454]
     Previous solution: [2.0073082918852077, 10.845620946027948]
-    Gradient at solution: [[1.808331262509455e-12, 8.1801232454381534e-13]]
+    Gradient at solution: [1.808331262509455e-12, 8.1801232454381534e-13]
     INFO:tensorflow:Optimization terminated with:
       Message: Optimization terminated successfully.
       Objective function value: 449.430980
@@ -334,7 +337,7 @@ while i < 20:
       Number of functions evaluations: 5
     Solution: [2.0268943932192807, 10.81117726932769]
     Previous solution: [2.0167765090766285, 10.828229844857454]
-    Gradient at solution: [[-1.0338396805309458e-12, -4.7251091928046662e-13]]
+    Gradient at solution: [-1.0338396805309458e-12, -4.7251091928046662e-13]
     INFO:tensorflow:Optimization terminated with:
       Message: Optimization terminated successfully.
       Objective function value: 449.383032
@@ -342,7 +345,7 @@ while i < 20:
       Number of functions evaluations: 5
     Solution: [2.0371619453822727, 10.7958722871897]
     Previous solution: [2.0268943932192807, 10.81117726932769]
-    Gradient at solution: [[-4.2810199829546036e-13, 3.390177027995378e-12]]
+    Gradient at solution: [-4.2810199829546036e-13, 3.390177027995378e-12]
     INFO:tensorflow:Optimization terminated with:
       Message: Optimization terminated successfully.
       Objective function value: 449.331424
@@ -350,7 +353,7 @@ while i < 20:
       Number of functions evaluations: 5
     Solution: [2.047127451478164, 10.783079199451496]
     Previous solution: [2.0371619453822727, 10.7958722871897]
-    Gradient at solution: [[-6.1639582327188691e-13, -5.6576965334897977e-13]]
+    Gradient at solution: [-6.1639582327188691e-13, -5.6576965334897977e-13]
     INFO:tensorflow:Optimization terminated with:
       Message: Optimization terminated successfully.
       Objective function value: 449.278922
@@ -358,7 +361,7 @@ while i < 20:
       Number of functions evaluations: 5
     Solution: [2.0562542564766484, 10.773161806641019]
     Previous solution: [2.047127451478164, 10.783079199451496]
-    Gradient at solution: [[-5.666578317686799e-13, 1.1821654766208667e-12]]
+    Gradient at solution: [-5.666578317686799e-13, 1.1821654766208667e-12]
     INFO:tensorflow:Optimization terminated with:
       Message: Optimization terminated successfully.
       Objective function value: 449.230216
@@ -366,7 +369,7 @@ while i < 20:
       Number of functions evaluations: 5
     Solution: [2.063663005140765, 10.766644862881687]
     Previous solution: [2.0562542564766484, 10.773161806641019]
-    Gradient at solution: [[-1.723066134218243e-13, -1.7674750552032492e-13]]
+    Gradient at solution: [-1.723066134218243e-13, -1.7674750552032492e-13]
 
 
 
@@ -418,9 +421,8 @@ plt.xlabel("Bin number")
 
 
 
-![png](../images/mm/output_33_1.png)
+![png](../images/mm/output_35_1.png)
 
 
 The almost constant difference between the true line and the estimated ones is likely due to the fact that
-we did not model the outliers properly (see Section 3 of [Hogg et al, Data Analysis Recipes](https://arxiv.org/pdf/1008.4686.pdf)
-for a probabilistic approach to model outliers).
+we did not model the outliers properly (see Section 3 of [Hogg et al, Data Analysis Recipes](https://arxiv.org/pdf/1008.4686.pdf))
