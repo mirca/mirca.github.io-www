@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "L1-norm optimization using Majorization-Minimization in TensorFlow"
+title: "L1 optimization using Majorization-Minimization in TensorFlow"
 excerpt: ""
 modified: 2018-01-29
 tags: [optimization, majorization-minimization, tensorflow, python]
@@ -59,7 +59,8 @@ Let's add some outliers as well:
 
 
 ```python
-y_data[np.arange(len(x_data)) % 10 == 0] = 3 * y_data[np.arange(len(x_data)) % 10 == 0]
+mask = np.arange(len(x_data)) % 10 == 0
+y_data[mask] = 3 * y_data[mask]
 ```
 
 
@@ -68,13 +69,6 @@ plt.step(np.arange(len(x_data)), y_data)
 plt.ylabel("Data")
 plt.xlabel("Bin number")
 ```
-
-
-
-
-    Text(0.5,0,'Bin number')
-
-
 
 
 ![png](../images/mm/output_11_1.png)
@@ -143,11 +137,6 @@ plt.xlabel("Bin number")
 
 
 
-    Text(0.5,0,'Bin number')
-
-
-
-
 ![png](../images/mm/output_20_1.png)
 
 
@@ -203,10 +192,8 @@ optimizer = tf.contrib.opt.ScipyOptimizerInterface(loss=negloglike_surrogate, va
 i = 0
 while i < 20:
     optimizer.minimize(session=sess, feed_dict={x: x_data, y: y_data})
-    m_opt = sess.run(m)
-    b_opt = sess.run(b)
-    m_n_opt = m_n
-    b_n_opt = b_n
+    m_opt, b_opt = sess.run(m), sess.run(b)
+    m_n_opt, b_n_opt = m_n, b_n
     grad_opt = sess.run(grad, feed_dict={x: x_data, y: y_data})
     print("Solution: [{}, {}]\nPrevious solution: [{}, {}]\nGradient at solution: [{}]"
           .format(m_opt, b_opt, m_n_opt, b_n_opt, grad_opt))
@@ -427,11 +414,6 @@ plt.legend()
 plt.ylabel("Data")
 plt.xlabel("Bin number")
 ```
-
-
-
-
-    Text(0.5,0,'Bin number')
 
 
 
