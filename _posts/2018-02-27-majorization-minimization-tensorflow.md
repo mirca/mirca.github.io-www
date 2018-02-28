@@ -1,5 +1,15 @@
+---
+layout: post
+title: "L1-norm optimization by Majorization-Minimization in TensorFlow"
+excerpt: ""
+modified: 2018-01-29
+tags: [optimization, majorization-minimization, tensorflow, python]
+comments: true
+image:
+  feature: gsoc_post.jpg
+  credit: Hubble Space Telescope
+---
 
-# Majorization-Minimization in TensorFlow
 
 In this notebook I will show a simple example which demonstrates the power of a really clever optimization
 technique, called Majorization-Minimization (MM). With MM, one is able to transform a non-differentiable
