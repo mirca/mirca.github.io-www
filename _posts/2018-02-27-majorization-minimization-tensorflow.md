@@ -15,7 +15,7 @@ technique, called Majorization-Minimization (MM). With MM, one is able to transf
 optimization problem (which often leads to unstable solutions) into a differentiable and therefore stable
 optimization problem.
 
-Note: for a theorectical and practical introduction of MM algorithms, see [Majorization-Minimization Algorithms in Signal Processing, Communications, and Machine Learning](http://ieeexplore.ieee.org/document/7547360/) by Y. Sun, P. Babu, and D. P. Palomar
+Note: for a theorectical and practical introduction to MM algorithms, see [Majorization-Minimization Algorithms in Signal Processing, Communications, and Machine Learning](http://ieeexplore.ieee.org/document/7547360/) by Y. Sun, P. Babu, and D. P. Palomar
 
 
 ```python
@@ -87,7 +87,7 @@ def mean(theta):
 
 # Direct Minimization of the L1-Norm
 
-Let's assume that we don't know that the data is comes from a Poisson process,
+Let's assume that we don't know that the data come from a Poisson process,
 and also that we are not interested in modeling the outliers, but only the linear
 trend. Since our data have outliers, we choose to use the L1-Norm as our cost function:
 
@@ -169,10 +169,12 @@ m_n, b_n = np.abs(np.random.normal()), np.abs(np.random.normal()) # initial gues
 ```
 
 A possible surrogate function for the L1-norm is given as
+$$
 \begin{align}
     g(\mathbf{r} | \mathbf{r}_n) = \dfrac{1}{2}\dfrac{||\mathbf{r}||^{2}_2}{||\mathbf{r}_n||_1} + \dfrac{1}{2}||\mathbf{r}_n||_1
 \end{align}
-which majorizes $||\mathbf{r}||_{1}$ at the point $\mathbf{r}_n$. See **Example 6** of [Majorization-Minimization Algorithms in Signal Processing, Communications, and Machine Learning](http://ieeexplore.ieee.org/document/7547360/) by Y. Sun, P. Babu, and D. P. Palomar.
+$$
+which majorizes $$||\mathbf{r}||_{1}$$ at the point $$\mathbf{r}_n$$. See **Example 6** of [Majorization-Minimization Algorithms in Signal Processing, Communications, and Machine Learning](http://ieeexplore.ieee.org/document/7547360/) by Y. Sun, P. Babu, and D. P. Palomar.
 
 Let's code up this surrogate function:
 
@@ -184,8 +186,8 @@ negloglike_surrogate = .5 * tf.reduce_sum(r * r / abs_r_n + abs_r_n) # surrogate
 grad = tf.gradients(negloglike_surrogate, [m, b]) # gradient of the surrogate function
 ```
 
-Now we can iterate on minimizing $g(\mathbf{r} | \mathbf{r}_n)$ with respect to $(m, b)$ and updating
-$(m_n, b_n)$ to the current optimal value.
+Now we can iterate on minimizing $$g(\mathbf{r} | \mathbf{r}_n)$$ with respect to $$(m, b)$$ and updating
+$$(m_n, b_n)$$ to the current optimal value.
 
 
 ```python
