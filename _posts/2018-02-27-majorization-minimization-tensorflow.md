@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "L1-norm optimization by Majorization-Minimization in TensorFlow"
+title: "L1-norm optimization using Majorization-Minimization in TensorFlow"
 excerpt: ""
 modified: 2018-01-29
 tags: [optimization, majorization-minimization, tensorflow, python]
@@ -34,9 +34,6 @@ import numpy as np
 np.random.seed(0)
 import tensorflow as tf
 ```
-
-    /Users/jvmirca/anaconda3/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: compiletime version 3.5 of module 'tensorflow.python.framework.fast_tensor_util' does not match runtime version 3.6
-      return f(*args, **kwds)
 
 
 ## Toy data generation
@@ -181,10 +178,13 @@ m_n, b_n = np.abs(np.random.normal()), np.abs(np.random.normal()) # initial gues
 ```
 
 A possible surrogate function for the L1-norm is given as
+$$
 \begin{align}
     g(\mathbf{r} | \mathbf{r}_t) = \dfrac{1}{2}\dfrac{||\mathbf{r}||^{2}_2}{||\mathbf{r}_n||_1} + \dfrac{1}{2}||\mathbf{r}_n||_1
 \end{align}
-which majorizes $||\mathbf{r}||_{1}$ at the point $\mathbf{r}_n$. See **Example 6** of [Majorization-Minimization Algorithms in Signal Processing, Communications, and Machine Learning](http://ieeexplore.ieee.org/document/7547360/) by Y. Sun, P. Babu, and D. P. Palomar.
+$$
+which majorizes $$||\mathbf{r}||_{1}$$ at the point $$\mathbf{r}_n$$.
+See **Example 6** of [Majorization-Minimization Algorithms in Signal Processing, Communications, and Machine Learning](http://ieeexplore.ieee.org/document/7547360/) by Y. Sun, P. Babu, and D. P. Palomar.
 
 
 ```python
