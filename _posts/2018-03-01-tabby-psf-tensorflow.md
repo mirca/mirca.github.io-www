@@ -23,7 +23,6 @@ import matplotlib.pyplot as plt
 from matplotlib import rcParams
 rcParams["figure.dpi"] = 150
 rcParams["savefig.dpi"] = 150
-rcParams['text.usetex'] = False
 ```
 
 ## Load libraries
@@ -44,7 +43,6 @@ class Gaussian2D:
     def __init__(self, x, y):
         self.x = x
         self.y = y
-        self.n_pixels = self.x.shape[0] * self.x.shape[1]
         if self.x.shape != self.y.shape:
             raise ValueError("Grid coordinates have the wrong shapes. Got {} and {}".
                              format(self.x.shape, self.y.shape))
@@ -66,8 +64,6 @@ class Gaussian2D:
 ```python
 tabby = KeplerTargetPixelFile.from_archive(8462852, quarter=8)
 ```
-
-    INFO: Found cached file ./mastDownload/Kepler/kplr008462852_lc_Q111111111111111111/kplr008462852-2011073133259_lpd-targ.fits.gz with expected size 6000827. [astroquery.query]
 
 
 ## Inspect data
