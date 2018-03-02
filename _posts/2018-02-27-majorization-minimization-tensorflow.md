@@ -13,7 +13,7 @@ image:
 In this notebook I will show a simple example which demonstrates the power of a really clever optimization
 technique, called Majorization-Minimization (MM). With MM, one is able to transform a non-differentiable
 optimization problem (which often leads to unstable solutions) into a differentiable and therefore stable
-optimization problem.
+one.
 
 Note: for a theorectical and practical introduction to MM algorithms, see [Majorization-Minimization Algorithms in Signal Processing, Communications, and Machine Learning](http://ieeexplore.ieee.org/document/7547360/) by Y. Sun, P. Babu, and D. P. Palomar
 
@@ -37,8 +37,8 @@ import tensorflow as tf
 
 ## Toy data generation
 
-To begin with, let's generate some toy data which is the result of
-adding an independent, non-identically distributed, Poisson process:
+To begin with, let's generate some toy data from an independent,
+non-identically distributed, Poisson process:
 
 
 ```python
@@ -54,7 +54,7 @@ true_intercept = 10
 y_data = np.random.poisson(x_data * true_slope + true_intercept)
 ```
 
-Let's add some outliers as well:
+Let's introduce some outliers as well:
 
 
 ```python
@@ -76,7 +76,7 @@ plt.xlabel("Bin number")
 
 
 We want to estimate the slope and the intercept of the line that "best" describes
-the mean of every Poisson random variable.
+the mean of every Poisson random variable. Let's then code up an affine function:
 
 
 ```python
@@ -103,6 +103,9 @@ b = tf.Variable(np.random.normal(), dtype=tf.float64, name='b')
 negloglike = tf.reduce_sum(tf.abs(mean((m, b)) - y))
 grad = tf.gradients(negloglike, [m, b])
 ```
+
+
+Let's then minimize the L1-Norm using ``tf.contrib.opt.ScipyOptimizerInterface``.
 
 
 ```python
@@ -427,4 +430,4 @@ plt.xlabel("Bin number")
 
 
 The almost constant difference between the true line and the estimated ones is likely due to the fact that
-we did not model the outliers properly (see Section 3 of [Hogg et al, Data Analysis Recipes](https://arxiv.org/pdf/1008.4686.pdf))
+we did not model the outliers properly (see Section 3 of [Hogg et al, Data Analysis Recipes](https://arxiv.org/pdf/1008.4686.pdf)).
