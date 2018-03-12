@@ -9,17 +9,17 @@ excerpt: "A List of Publications"
 ## Journals
 
 * <p style='text-align: justify;'> QUEIROZ, W., J., L, ALMEIDA, D., B., T., MADEIRO, F., <b>CARDOSO, J., V., M.</b>, PEREIRA, D., F., L., ALENCAR, M., S.
-<b>New Closed-Form Expressions for SNR Estimates of Nakagami Fading Channels by the Method of Moments.</b>
-<i>To appear in Springer Telecommunications and Systems</i> </p>
+<b><a href="https://link.springer.com/article/10.1007/s11235-018-0440-6">New Closed-Form Expressions for SNR Estimates of Nakagami Fading Channels by the Method of Moments.</a></b>
+<i>Springer Telecommunications and Systems</i></p>
 
 * <p style='text-align: justify;'> CODY, A., BARENTSEN, G., HEDGES, C., L., GULLY-SANTIAGO, M., <b>CARDOSO, J., V., M.</b>
-<b>K2SUPERSTAMP: The Release of Calibrated Mosaics for the Kepler/K2 Mission.</b>
-<i>Research Notes of the American Astronomical Society.
-<a href="http://iopscience.iop.org/article/10.3847/2515-5172/aaac30">http://iopscience.iop.org/article/10.3847/2515-5172/aaac30</a></i></p>
+<b><a href="http://iopscience.iop.org/article/10.3847/2515-5172/aaac30">K2SUPERSTAMP: The Release of Calibrated Mosaics for the Kepler/K2 Mission.</a></b>
+<i>Research Notes of the American Astronomical Society.</i></p>
 
 * <p style='text-align: justify;'> The Astropy Collaboration, <i> et al.</i>
-<b>The Astropy Project: building an inclusive, open-science project and status of the
-v2.0 core package.</b> <i><a href="https://arxiv.org/pdf/1801.02634.pdf">https://arxiv.org/pdf/1801.02634.pdf</a></i> </p>
+<b> <a href="https://arxiv.org/pdf/1801.02634.pdf">
+The Astropy Project: building an inclusive, open-science project and status of the
+v2.0 core package.</a></b></p>
 
 ## Conferences
 
@@ -31,11 +31,16 @@ v2.0 core package.</b> <i><a href="https://arxiv.org/pdf/1801.02634.pdf">https:/
 
 ## Journals
 
-* <p style='text-align: justify;'> DAVANCO, M., I., LIU, J., SAPIENZA, L., ZHANG, C. Z., <b>CARDOSO, J., V., M.</b>, VERMA, V., MIRIN, R., NAM, S. W, SRINIVASAN, K. <b>Heterogeneous integration for on-chip quantum photonic circuits with single quantum dot devices</b>. <i>Nature Communications. <a href="https://www.nature.com/articles/s41467-017-00987-6.pdf">https://www.nature.com/articles/s41467-017-00987-6.pdf</a></i></p>
+* <p style='text-align: justify;'> DAVANCO, M., I., LIU, J., SAPIENZA, L., ZHANG, C. Z., <b>CARDOSO, J., V., M.</b>, VERMA, V., MIRIN, R., NAM, S. W, SRINIVASAN, K. <a href="https://www.nature.com/articles/s41467-017-00987-6.pdf"><b>Heterogeneous integration for on-chip quantum photonic circuits with single quantum dot devices</b></a>. <i>Nature Communications</i></p>
 
-* <p style='text-align: justify;'> LIU, J., DAVANCO, M., I., SAPIENZA, L., KONTHASINGHE, K., <b>CARDOSO, J., V., M.</b>, SONG, D., J., BADOLATO, A., SRINIVASAN, K. <b> Cryogenic photoluminescence imaging system for nanoscale positioning of single quantum emitters</b>. <i> Review of Scientific Instruments. <a href="http://aip.scitation.org/doi/full/10.1063/1.4976578">http://aip.scitation.org/doi/full/10.1063/1.4976578</a></i></p>
+* <p style='text-align: justify;'> LIU, J., DAVANCO, M., I., SAPIENZA, L., KONTHASINGHE, K.,
+<b>CARDOSO, J., V., M.</b>, SONG, D., J., BADOLATO, A., SRINIVASAN, K.
+<a href="http://aip.scitation.org/doi/full/10.1063/1.4976578"><b>Cryogenic photoluminescence imaging system for nanoscale positioning of single quantum emitters</b></a>.
+<i> Review of Scientific Instruments.</i></p>
 
-* <p style='text-align: justify;'> <b>CARDOSO, J. V. M.</b>, QUEIROZ, W. J. L., LIU, H., ALENCAR, M. S. <b>On the Performance of the Energy Detector Subject to Impulsive Noise in κ − μ, α − μ, and η − μ Fading Channels</b>. <i>Tsinghua Science and Technology. <a href="http://ieeexplore.ieee.org/document/7986939/">http://ieeexplore.ieee.org/document/7986939/</a></i></p>
+* <p style='text-align: justify;'> <b>CARDOSO, J. V. M.</b>, QUEIROZ, W. J. L., LIU, H.,
+ALENCAR, M. S. <b><a href="http://ieeexplore.ieee.org/document/7986939/">
+On the Performance of the Energy Detector Subject to Impulsive Noise in κ − μ, α − μ, and η − μ Fading Channels</b></a>. <i>Tsinghua Science and Technology.</i></p>
 
 ## Conferences
 
