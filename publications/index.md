@@ -21,9 +21,9 @@ excerpt: "A List of Publications"
 The Astropy Project: building an inclusive, open-science project and status of the
 v2.0 core package.</a></b></p>
 
-## Conferences
+## Abstracts
 
-* <p style='text-align: justify;'> <b>Cardoso, J. V. M.</b>, <i>et al.</i> <b>A PSF photometry tool for NASA's Kepler, K2, and TESS Missions (abstract)</b>.
+* <p style='text-align: justify;'> <b>Cardoso, J. V. M.</b>, <i>et al.</i> <b>A PSF photometry tool for NASA's Kepler, K2, and TESS Missions</b>.
 <i>231st American Astronomical Society Meeting</i>, National Harbor, MD, USA.</p>
 
 
@@ -43,7 +43,7 @@ Alencar, M. S.<a href="http://ieeexplore.ieee.org/document/7986939/">
 <b>On the Performance of the Energy Detector Subject to Impulsive Noise in κ − μ, α − μ, and η − μ Fading Channels</b></a>.
 <i>Tsinghua Science and Technology.</i></p>
 
-## Conferences
+## Abstracts
 
 * <p style='text-align: justify;'> Liu. J., <i>et. al.</i> <b>High-throughput nanoscale optical positioning of single quantum dots for high-performance single-photon generation</b>. <i>8th International Conference on Metamaterials, Photonic Crystals and Plasmonics</i>, Seoul, South Korea.</p>
 
