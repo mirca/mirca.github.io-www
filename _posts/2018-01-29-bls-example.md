@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Reproducing Example 1 of the BLS paper"
-excerpt: "using Python"
+title: "Reproducing Example 1 of the BLS paper in Python"
+excerpt: ""
 modified: 2018-01-29
 tags: [box-least-squares, fitting, lightkurve, exoplanets]
 comments: true
