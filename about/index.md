@@ -72,12 +72,11 @@ and <a href="http://annmariecody.com">Dr. Ann Marie Cody</a>.
 </p>
 
 In my spare time, I enjoy taking my dog Pluto for a walk, studying Mandarin,
-drinking Brazilian good coffee, playing football, writing code for open
+drinking Brazilian coffee, playing football, writing code for open
 source projects, playing chess, and reading historical and technical maths books.
 
 <i>Fun fact</i>: I was featured IEEE Student of the Week in the
 <a href="https://www.facebook.com/IEEEStudents/photos/a.285696968155912.70076.236454509746825/769475893111348/?type=1&theater">IEEE Students Facebook webpage</a>. \o/
 
-Enjoy a photo of my dog Pluto ;-)
 <br>
 <center><img src="../images/pluto/pluto.jpg" style="width:237px;height:320px;"></center>
