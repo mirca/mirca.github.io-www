@@ -10,6 +10,9 @@ image:
 ---
 
 <ul style="list-style-type:square">
+   <li> <i> April 2018 </i>- I'm co-mentoring Rocio Kiman, a PhD student in astronomy at CUNY, on her
+   <a href="https://summerofcode.withgoogle.com/dashboard/project/5937179419738112/overview/"><u>astropy
+      tutorials project</u></a> as part of the Google Summer of Code program!
    <li> <i> March 2018 </i> - <a href="https://keplerscience.arc.nasa.gov/new-kepler-data-analysis-tools-and-tutorials-lightkurve-v10.html">
    <u>Lightkurve 1.0</u></a> has been released!
    <li> <i>March 2018</i> - I attended the <a href="https://tess.ninja"><u>TESS.Ninja</u></a> workshop.
