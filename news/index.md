@@ -19,6 +19,8 @@ image:
 Huge thanks to the organizers for fully covering my travel (all the way from Beijing,
 CN, to NYC, USA), hotel, and additional expenses!
    <li> <i>February 2018</i> - I've left NASA's K2 GO Office to resume my undergraduate studies!
+   <li> <i>January 2018</i> - I attended the American Astronomical Society Meeting!<a href="https://github.com/mirca/ze_aas_poster/blob/master/poster.pdf">
+   <u>Check out my poster!</u></a>
    <li> <i>February 2017</i> - I joined the K2 Guest Observer Office at NASA Ames for a year-long internship!
    <li> <i>June 2016</i> - The paper "An Approximate Exponentiated Weibull Joint Envelope-Phase Distribution"
 was accepted to the IEEE Symposium on Antennas and Propagation 2016, and I was
