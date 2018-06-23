@@ -37,6 +37,6 @@ Here is a list of projects I'm more involved with:
 * <a href="https://github.com/keplergo/oktopus">oktopus</a>: A soft-bodied, eight-armed package for beautiful inference
 * <a href="https://github.com/mirca/macaw">macaw</a>: A multicolor, long-tailed package for beautiful majorization-minimization applied to machine learning
 
-I've been also contributing code for <a href="https://github.com/numpy/numpy">numpy</a>,
+I've been also contributing code to <a href="https://github.com/numpy/numpy">numpy</a>,
 <a href="https://github.com/scipy/scipy">scipy</a>, and
 <a href="https://github.com/scikit-optimize/scikit-optimize">scikit-optimize</a>.
