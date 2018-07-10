@@ -575,12 +575,12 @@ $button-size: 1.5rem;
   margin-bottom: 0px + $doc-line-height;
   margin-bottom: 0rem + ($doc-line-height / $doc-font-size);
   ul, li {
-  	margin: 0;
-  	padding: 0;
-  	list-style: none;
+	margin: 0;
+	padding: 0;
+	list-style: none;
   }
   li {
-  	display: inline-block;
+	display: inline-block;
   }
   $social:
   (facebook, $facebook-color),
@@ -588,6 +588,7 @@ $button-size: 1.5rem;
   (foursquare, $foursquare-color),
   (google-plus, $google-plus-color),
   (speakerdeck, $speakerdeck-color),
+  (skype, $skype-color),
   (instagram, $instagram-color),
   (linkedin, $linkedin-color),
   (pinterest, $pinterest-color),
