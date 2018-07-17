@@ -4,6 +4,6 @@ title: Zé Vinícius
 excerpt: "A minimal Jekyll theme for your blog by designer Michael Rose."
 tags: [Jekyll, theme, responsive, blog, template]
 image:
-  feature: campina1.jpg
-  credit: Prefeitura da cidade de Campina Grande, PB, Brasil.
+  feature: tess-ninja.jpg
+  credit: Flatiron Institute, NYC.
 ---
