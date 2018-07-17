@@ -362,8 +362,11 @@ $button-size: 1.5rem;
 		}
 	}
 	img {
-		width: 50%;
+		width: 75%;
 		height: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
 		-ms-interpolation-mode: bicubic;
 	}
 	.headline-wrap {
