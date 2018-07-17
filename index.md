@@ -5,5 +5,5 @@ excerpt: "A minimal Jekyll theme for your blog by designer Michael Rose."
 tags: [Jekyll, theme, responsive, blog, template]
 image:
   feature: tessninja.jpg
-  credit: Prefeitura da cidade de Campina Grande, Brasil.
+  credit: Flatiron Institute, NYC.
 ---
