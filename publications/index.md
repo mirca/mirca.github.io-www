@@ -17,7 +17,7 @@ excerpt: "A List of Publications"
 <i>Research Notes of the American Astronomical Society.</i></p>
 
 * <p style='text-align: justify;'> The Astropy Collaboration, <i> et al.</i>
-<b> <a href="https://arxiv.org/pdf/1801.02634.pdf">
+<b> <a href="http://iopscience.iop.org/article/10.3847/1538-3881/aabc4f">
 The Astropy Project: building an inclusive, open-science project and status of the
 v2.0 core package.</a></b></p>
 
