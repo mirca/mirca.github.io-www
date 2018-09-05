@@ -63,7 +63,7 @@ photometry. I had the privilege to be mentored by
 <p style='text-align: justify;'>
 In 2017, I was extremely fortunate and privileged to join
 <a href="https://keplerscience.arc.nasa.gov">NASA's K2 Mission</a> as an intern
-in Silicon Valley, USA. During my time at NASA, I worked on
+at NASA Ames Research Center in Silicon Valley, USA. During my time at NASA, I worked on
 <a href="https://www.github.com/KeplerGO">software development and scientific
 computing</a> problems under the mentorship of <a href="http://geert.io">Dr.
 Geert Barentsen</a>, <a href="http://gully.github.io">Dr. Michael Gully-Santiago</a>,
@@ -75,5 +75,5 @@ In my spare time, I enjoy taking my dog Pluto for a walk, studying Mandarin,
 drinking Brazilian coffee, playing football, writing code for open
 source projects, playing chess, and reading historical and technical maths books.
 
-<i>Fun fact</i>: I was featured IEEE Student of the Week in the
+<i>Fun fact</i>: I was once featured IEEE Student of the Week in the
 <a href="https://www.facebook.com/IEEEStudents/photos/a.285696968155912.70076.236454509746825/769475893111348/?type=1&theater">IEEE Students Facebook webpage</a>. \o/
