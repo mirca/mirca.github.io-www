@@ -12,8 +12,8 @@ image:
 Hi there, my name is <b>Zé</b>!
 <br><br>
 I'm an undergraduate student majoring in Electrical Engineering at the Federal University of
-Campina Grande, Brazil. Since my second semester in college, I've been affiliated with the
-<a href="https://www.iecom.org.br">Institute for Advanced Studies in Communications</a> mentored by
+Campina Grande, Brazil. Since my second semester in college, I've been an undergraduate research
+assistant at the <a href="https://www.iecom.org.br">Institute for Advanced Studies in Communications</a> mentored by
 <a href="https://scholar.google.com.br/citations?user=NBSmPdAAAAAJ&hl=en">Dr. Marcelo Alencar</a>
 and <u>Dr. Danilo Regis</u>.
 </p>
@@ -34,16 +34,16 @@ the mentorship of <a href="https://www.nist.gov/people/marcelo-davanco">Dr. Marc
 In that opportunity, I was able to apply the theory I learnt to implement routines in MATLAB for
 single molecule localization microscopy and fluorescense localization imaging microscopy.
 More precisely, I developed Maximum Likelihood Estimators (along with Fisher Information Matrices)
-to localize and measure the brightness of nanoemitters (aka Point Spread Function photometry, in the
+to localize and measure the brightness of nanoemitters (aka Point Spread Function photometry in the
 astronomy community). This work was part of bigger projects which were later published
-on <a href="https://www.nature.com/articles/s41467-017-00987-6.pdf"><i>Nature Communications</i></a>
+in <a href="https://www.nature.com/articles/s41467-017-00987-6.pdf"><i>Nature Communications</i></a>
 and <a href="http://aip.scitation.org/doi/full/10.1063/1.4976578"><i>Review of Scientific Instruments</i></a>.
 </p>
 
 <p style='text-align: justify;'>
 In the Spring of 2016, I went back to school in Brazil and got an <u>undergraduate teaching assistant</u>
 scholarship for the course of <u>Probability and Statistics for Electrical Engineering and
-Computer Science</u>. Besides helping students understand basics concepts of probability theory
+Computer Science</u>. Besides helping students understand basic concepts of probability theory
 during office hours, I also gave weekly lectures during which I solved exercises together with
 the students.
 </p>
@@ -71,9 +71,6 @@ Geert Barentsen</a>, <a href="http://gully.github.io">Dr. Michael Gully-Santiago
 and <a href="http://annmariecody.com">Dr. Ann Marie Cody</a>.
 </p>
 
-In my spare time, I enjoy taking my dog Pluto for a walk, studying Mandarin,
+In my spare time, I enjoy taking my dog Pluto for a walk, learning Mandarin,
 drinking Brazilian coffee, playing football, writing code for open
 source projects, playing chess, and reading historical and technical maths books.
-
-<i>Fun fact</i>: I was once featured IEEE Student of the Week in the
-<a href="https://www.facebook.com/IEEEStudents/photos/a.285696968155912.70076.236454509746825/769475893111348/?type=1&theater">IEEE Students Facebook webpage</a>. \o/
