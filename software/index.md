@@ -25,18 +25,26 @@ Those libraries I mentioned are developed in a daily basis by experts from
 academia and industry (and also by students through programs like
 <a href="https://https://summerofcode.withgoogle.com">Google Summer of Code</a>).
 
-In the past years, I've been involved with open source software development
+Over the past few years, I've been involved with open source software development
 primarily thanks to Google, GitHub, and NASA ❤️.
 
 Here is a list of projects I'm more involved with:
 
+* <a href="https://github.com/keplergo/lightkurve">lightkurve</a>: Sweet astronomical flux time series analysis in Python
 * <a href="https://github.com/astropy/astropy">astropy</a>: A community Python library for Astronomy
 * <a href="https://github.com/astropy/photutils">photutils</a>: Image photometry in Python
 * <a href="https://github.com/keplergo/pyke">pyke</a>: A suite of Python tools to analyze Kepler/K2 data
-* <a href="https://github.com/keplergo/lightkurve">lightkurve</a>: Sweet astronomical flux time series analysis in Python
 * <a href="https://github.com/keplergo/oktopus">oktopus</a>: A soft-bodied, eight-armed package for beautiful inference
 * <a href="https://github.com/mirca/macaw">macaw</a>: A multicolor, long-tailed package for beautiful majorization-minimization applied to machine learning
 
-I've been also contributing code to <a href="https://github.com/numpy/numpy">numpy</a>,
+I've been also contributing code and documentation to <a href="https://github.com/numpy/numpy">numpy</a>,
 <a href="https://github.com/scipy/scipy">scipy</a>, and
 <a href="https://github.com/scikit-optimize/scikit-optimize">scikit-optimize</a>.
+
+Recently I started to code more frequently in R and C++ in applications of financial engineering.
+Here a list of projects being developed:
+
+* <a href="https://github.com/dppalomar/riskParityPortfolio">riskParityPortfolio</a>:
+An R package for fast design of high dimensional risk parity portfolios
+* <a href="https://github.com/dppalomar/sparseIndexTracking">sparseIndexTracking</a>:
+An R package for the design of portfolio of stocks to track an index
