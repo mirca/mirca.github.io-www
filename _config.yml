@@ -43,7 +43,7 @@ titlecase: true
 owner:
   name: Zé Vinícius
   avatar: https://raw.githubusercontent.com/mirca/mirca.github.io/master/images/ze2.jpeg
-  bio: ""
+  bio: "I convert maths into code :)"
   email: jvmirca@gmail.com
   disqus-shortname: mirca-1
   twitter: mircaze
@@ -59,7 +59,7 @@ owner:
     ad-slot:
   bing-verify:
   github: mirca
-  stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
+  stackoverflow: 7221936/zé-vinícius #from a "http://stackoverflow.com/users/123456/username" link
   linkedin: mircaze
   xing: #username
   instagram: mircajv
