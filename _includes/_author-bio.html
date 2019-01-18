@@ -21,6 +21,7 @@
   {% if author.xing %}<a href="http://www.xing.com/profile/{{ author.xing }}" class="author-social" target="_blank"><i class="fa fa-fw fa-xing-square"></i> XING</a>{% endif %}
   {% if author.instagram %}<a href="http://instagram.com/{{ author.instagram }}" class="author-social" target="_blank"><i class="fa fa-fw fa-instagram"></i> Instagram</a>{% endif %}
   {% if author.speakerdeck %}<a href="http://speakerdeck.com/{{ author.speakerdeck }}" class="author-social" target="_blank"><i class="fa fa-fw fa-speakerdeck"></i> Speakerdeck</a>{% endif %}
+  {% if author.scholar %}<a href="https://scholar.google.com/citations?hl=en&user={{ author.scholar }}&view_op=list_works&sortby=pubdate" class="author-social" target="_blank"><i class="fa fa-fw fa-google-plus-square"></i> Google Scholar</a>{% endif %}
   {% if author.skype %}<a href="skype:{{ author.skype }}?chat" class="author-social" target="_blank"><i class="fa fa-fw fa-skype"></i> Skype</a>{% endif %}
   {% if author.tumblr %}<a href="http://{{ author.tumblr }}.tumblr.com" class="author-social" target="_blank"><i class="fa fa-fw fa-tumblr-square"></i> Tumblr</a>{% endif %}
   {% if author.stackoverflow %}<a href="http://stackoverflow.com/users/{{ author.stackoverflow }}" class="author-social" target="_blank"><i class="fa fa-fw fa-stack-overflow"></i> Stackoverflow</a>{% endif %}
