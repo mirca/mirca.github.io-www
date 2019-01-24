@@ -33,7 +33,6 @@ Here is a list of projects I'm more involved with:
 * <a href="https://github.com/keplergo/lightkurve">lightkurve</a>: Sweet astronomical flux time series analysis in Python
 * <a href="https://github.com/astropy/astropy">astropy</a>: A community Python library for Astronomy
 * <a href="https://github.com/astropy/photutils">photutils</a>: Image photometry in Python
-* <a href="https://github.com/keplergo/pyke">pyke</a>: A suite of Python tools to analyze Kepler/K2 data
 * <a href="https://github.com/keplergo/oktopus">oktopus</a>: A soft-bodied, eight-armed package for beautiful inference
 * <a href="https://github.com/mirca/macaw">macaw</a>: A multicolor, long-tailed package for beautiful majorization-minimization applied to machine learning
 
@@ -41,7 +40,7 @@ I've been also contributing code and documentation to <a href="https://github.co
 <a href="https://github.com/scipy/scipy">scipy</a>, and
 <a href="https://github.com/scikit-optimize/scikit-optimize">scikit-optimize</a>.
 
-Recently I started to code more frequently in R and C++ in applications of financial engineering.
+Recently, I started to code more frequently in R and C++ in applications of financial engineering.
 Here a list of projects being developed:
 
 * <a href="https://github.com/dppalomar/riskParityPortfolio">riskParityPortfolio</a>:

@@ -10,11 +10,12 @@ image:
 ---
 
 <ul style="list-style-type:square">
+   <li> <i>December 2018</i> <a href="https://www.github.com/dppalomar/riskParityPortfolio">riskParityPortfolio 0.1.x</a> has been released on CRAN!
    <li> <i>October 2018</i> I'm featured on <a href="https://exoplanets.nasa.gov/news/1529/meet-the-kepler-mission-team/"><u>NASA Kepler mission website</u></a> :)
    <li> <i> April 2018 </i>- I was a co-mentor for the
    <a href="https://github.com/astropy/astropy-tutorials">astropy tutorials project</a> as part of the Google Summer of Code program!
    <li> <i> March 2018 </i> - <a href="https://keplerscience.arc.nasa.gov/new-kepler-data-analysis-tools-and-tutorials-lightkurve-v10.html">
-   <u>Lightkurve 1.0</u></a> has been released!
+   <u>lightkurve 1.0</u></a> has been released!
    <li> <i>March 2018</i> - I attended the <a href="https://tess.ninja"><u>TESS.Ninja</u></a> workshop.
 Huge thanks to the organizers for fully covering my travel (all the way from Beijing,
 CN, to NYC, USA), hotel, and additional expenses!
