@@ -40,9 +40,11 @@ I've been also contributing code and documentation to <a href="https://github.co
 <a href="https://github.com/scipy/scipy">scipy</a>, and
 <a href="https://github.com/scikit-optimize/scikit-optimize">scikit-optimize</a>.
 
-Recently, I started to code more frequently in R and C++ in applications of financial engineering.
-Here a list of projects being developed:
+Recently, I started to code more frequently in R and C++ in applications of financial engineering and
+machine learning. Here a list of projects being developed:
 
+* <a href="https://github.com/dppalomar/spectralGraphTopology">spectralGraphTopology</a>:
+An R package for graph learning from data via spectral constraints
 * <a href="https://github.com/dppalomar/riskParityPortfolio">riskParityPortfolio</a>:
 An R package for fast design of high dimensional risk parity portfolios
 * <a href="https://github.com/dppalomar/sparseIndexTracking">sparseIndexTracking</a>:
