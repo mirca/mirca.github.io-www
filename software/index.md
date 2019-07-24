@@ -33,8 +33,6 @@ Here is a list of projects I'm more involved with:
 * <a href="https://github.com/keplergo/lightkurve">lightkurve</a>: Sweet astronomical flux time series analysis in Python
 * <a href="https://github.com/astropy/astropy">astropy</a>: A community Python library for Astronomy
 * <a href="https://github.com/astropy/photutils">photutils</a>: Image photometry in Python
-* <a href="https://github.com/keplergo/oktopus">oktopus</a>: Fitting maximum likelihood models in Python made easier
-* <a href="https://github.com/mirca/macaw">macaw</a>: Majorization-minimization applied to machine learning
 
 I've been also contributing code and documentation to <a href="https://github.com/numpy/numpy">numpy</a>,
 <a href="https://github.com/scipy/scipy">scipy</a>, and
@@ -43,6 +41,8 @@ I've been also contributing code and documentation to <a href="https://github.co
 Recently, I started to code more frequently in R and C++ in applications of financial engineering and
 machine learning. Here a list of projects being developed:
 
+* <a href="https://github.com/mirca/riskparity.py">riskparity.py</a>: A Python package
+for scalable risk parity portfolios using TensorFlow 2.0
 * <a href="https://github.com/dppalomar/spectralGraphTopology">spectralGraphTopology</a>:
 An R package for graph learning from data via spectral constraints
 * <a href="https://github.com/dppalomar/riskParityPortfolio">riskParityPortfolio</a>:
