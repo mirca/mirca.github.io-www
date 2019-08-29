@@ -4,15 +4,12 @@ title: About me
 tags: [about]
 modified: 2014-08-08T20:53:07.573882-04:00
 comments: false
-image:
-  feature: juno.jpg
-  credit: NASA JPL.
 ---
 <p style='text-align: justify;'>
 Hi there, my name is <b>Zé</b>!
 <br><br>
-I'm an undergraduate student majoring in Electrical Engineering at the Federal University of
-Campina Grande, Brazil. Since my second semester in college, I've been an undergraduate research
+I graduated with a B.Eng in Electrical Engineering from the Federal University of
+Campina Grande, Brazil. Since my second semester in college, I was an undergraduate research
 assistant at the <a href="https://www.iecom.org.br">Institute for Advanced Studies in Communications</a> mentored by
 <a href="https://scholar.google.com.br/citations?user=NBSmPdAAAAAJ&hl=en">Dr. Marcelo Alencar</a>
 and <u>Dr. Danilo Regis</u>.
