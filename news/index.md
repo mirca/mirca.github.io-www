@@ -10,6 +10,8 @@ image:
 ---
 
 <ul style="list-style-type:square">
+   <li> <i>August 2019</i> - <a href="https://www.github.com/dppalomar/riskParityPortfolio"><u>riskParityPortfolio 0.2.0</u></a> has been released on CRAN!
+   <li> <i>August 2019</i> - <a href="https://www.github.com/mirca/riskparity.py"><u>riskparity.py 0.1.0</u></a> has been released on PYPI!
    <li> <i>May 2019</i> - <a href="https://www.github.com/dppalomar/spectralGraphTopology"><u>spectralGraphTopology 0.1.x</u></a> has been released on CRAN!
    <li> <i>March 2019</i> - I've accepted the role of Project Mentor for the <a href="https://www.udacity.com/course/machine-learning-engineer-nanodegree--nd009t">Machine Learning Engineer Nanodegree at Udacity</a>!
    <li> <i>February 2019</i> - I'm volunteering as a Organization Administrator for <a href="https://openastronomy.org/gsoc/gsoc2019/#/mentors"><u>OpenAstronomy</u></a>
