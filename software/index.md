@@ -7,8 +7,9 @@ comments: false
 
 Hello world!
 
-In recent years, I've been actively participating in developing open source software in the fields of
-financial signal processing, astronomy, and machine learning. Below you can find a list of projects I've been contributing to.
+In recent years, I've been actively participating in developing open source software, mostly in Python, R, and C++,
+for the fields of financial signal processing, astronomy, and machine learning. Below you can find a list of projects
+I've been contributing to.
 
 ### Financial Signal Processing
 * <a href="https://github.com/mirca/riskparity.py">riskparity.py</a>: A Python package
