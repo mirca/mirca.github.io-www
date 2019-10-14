@@ -10,6 +10,7 @@ image:
 ---
 
 <ul style="list-style-type:square">
+   <li> <i>October 2019</i> - <a href="https://www.github.com/dppalomar/spectralGraphTopology"><u>spectralGraphTopology 0.2.0</u></a> has been released on CRAN!
    <li> <i>October 2019</i> - <a href="https://www.github.com/dppalomar/riskParityPortfolio"><u>riskParityPortfolio 0.2.1</u></a> has been released on CRAN!
    <li> <i>September 2019</i> - Our paper on "Structured Graph Learning via Spectral Constraints" has been accepted to NeurIPS 2019!
    <li> <i>August 2019</i> - <a href="https://www.github.com/dppalomar/riskParityPortfolio"><u>riskParityPortfolio 0.2.0</u></a> has been released on CRAN!
