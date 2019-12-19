@@ -30,7 +30,7 @@ Probabilistic algorithms.
 </p>
 
 <p style='text-align: justify;'>
-In the Summer of 2015, I had the privilege to be an <u>undergraduate guest researcher</u> at the
+In the Summer of 2015, I was an <u>undergraduate guest researcher</u> at the
 Nanofabrication Research Group,
 <a href="https://www.nist.gov/cnst">National Institute of Standards and Technology, USA</a>, under
 the mentorship of <a href="https://www.nist.gov/people/marcelo-davanco">Dr. Marcelo Davanço</a>.
@@ -64,7 +64,7 @@ photometry. I had the privilege to be mentored by
 </p>
 
 <p style='text-align: justify;'>
-In 2017, I was extremely fortunate and privileged to join
+In 2017, I joined
 <a href="https://keplerscience.arc.nasa.gov">NASA's K2 Mission</a> as an intern
 at NASA Ames Research Center in Silicon Valley, USA. During my time at NASA, I worked on
 <a href="https://www.github.com/KeplerGO">software development and scientific
@@ -73,7 +73,3 @@ Geert Barentsen</a>, <a href="http://gully.github.io">Dr. Michael Gully-Santiago
 <a href="https://christinasupportsscience.blogspot.com">Dr. Christina Hedges</a>,
 and <a href="http://annmariecody.com">Dr. Ann Marie Cody</a>.
 </p>
-
-In my spare time, I enjoy taking my dog Pluto for a walk, learning Mandarin,
-drinking Brazilian coffee, playing football, writing code for open
-source projects, playing chess, and reading historical and technical maths books.
