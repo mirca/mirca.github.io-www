@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "4 steps before writing your GSoC application"
+title: "Four steps before writing your GSoC application"
 excerpt: ""
 modified: 2017-02-28
 tags: [gsoc, astropy, openastronomy]
