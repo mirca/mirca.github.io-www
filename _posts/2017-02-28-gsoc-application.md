@@ -11,18 +11,18 @@ image:
 ---
 
 <p style='text-align: justify;'>
-Hi everyone!
+Hi y'all!
 </p>
 
 <p style='text-align: justify;'>
-In this blog post I am going to briefly describe some important steps about the
-Google Summer of Code program.
+In this blog post I am going to briefly describe some important steps about student's applications to
+the Google Summer of Code program.
 </p>
 
 <p style='text-align: justify;'>
 Although writing a proper and objective application and submitting patches to
 the organization are paramount to get accepted, I am going to cover some aspects
-which come before actually writing the application itself.
+that come before actually writing the application itself.
 </p>
 
 <b>
@@ -31,9 +31,9 @@ Step 1: Start contributing to your target organization asap
 
 <p style='text-align: justify;'>
 Usually most open source organizations use git and GitHub to manage their code
-development. So, create a GitHub account, learn how to use git, and start looking for issues
+development. So, create a GitHub account asap, learn how to use git, and start looking for issues
 on the GitHub issue tracker of your target organization. Mentors will take into account the
-fact that you were around submitting useful patches to the organization way before the GSoC
+fact that you were around submitting useful patches to the project way before the GSoC
 application period starts.
 </p>
 
@@ -45,10 +45,10 @@ Step 2: Quality is better than quantity
 Don't rush trying to solve one million issues. Focus on issues that are interesting to you and
 read the organization's development guide thoroughly. Doing this you can avoid making mistakes
 (specially those covered in the dev guide) while submitting your first patches. If you are
-fixing a bug or adding a new feature, make sure to add unit tests that correctly covered them.
+fixing a bug or adding a new feature, make sure to add unit tests that correctly cover them.
 Make sure your commit message falls under the standard of the organization.
 All in all, these little things will show to mentors that you are proactive, organized,
-and that you can work independently. Also, your potential mentor will have a better idea of your
+and that you can work independently. Also, your potential mentors will have a better idea of your
 current programming skills if you solve more difficult issues. However, solving easy-fix issues
 is also great to make you acquainted with the git flow.
 </p>
@@ -85,10 +85,10 @@ If your answer to any of these questions is "yes", then you should definitely me
 your application.
 </p>
 
-As a matter of fact, <a href="http://mirca.github.io/files/ze_application.pdf">here</a> is my GSoC application of 2016, for <a href="http://astropy.org">Astropy</a>!
+As a template, <a href="http://mirca.github.io/files/ze_application.pdf">here</a> is my GSoC application of 2016, for <a href="http://astropy.org">Astropy</a>!
 
 <p style='text-align: justify;'>
-If you either think this post is useful or you have any questions regarding GSoC process leave a comment down here. Hope it helps!
+If you either think this post is useful or you have any questions regarding GSoC process leave a comment below. Hope it helps!
 </p>
 
 Zé
