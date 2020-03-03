@@ -85,10 +85,10 @@ If your answer to any of these questions is "yes", then you should definitely me
 your application.
 </p>
 
-As a template, <a href="http://mirca.github.io/files/ze_application.pdf">here</a> is my GSoC application of 2016, for <a href="http://astropy.org">Astropy</a>!
+As a template, <a href="http://mirca.github.io/files/ze_application.pdf">here</a> is my GSoC application of 2016 for <a href="http://astropy.org">Astropy</a>!
 
 <p style='text-align: justify;'>
-If you either think this post is useful or you have any questions regarding GSoC process leave a comment below. Hope it helps!
+If you either think this post is useful or you have any questions regarding GSoC program leave a comment below. Hope it helps!
 </p>
 
 Zé
