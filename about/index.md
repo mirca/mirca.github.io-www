@@ -73,3 +73,7 @@ Geert Barentsen</a>, <a href="http://gully.github.io">Dr. Michael Gully-Santiago
 <a href="https://christinasupportsscience.blogspot.com">Dr. Christina Hedges</a>,
 and <a href="http://annmariecody.com">Dr. Ann Marie Cody</a>.
 </p>
+
+<p style='text-align: center;'>
+<img src="../images/yosemite.png" alt="Christina, Geert, Ruth, Gully, Ze. Pic by Dan F-M">
+</p>
