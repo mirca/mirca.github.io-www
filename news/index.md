@@ -10,8 +10,12 @@ image:
 ---
 
 <ul style="list-style-type:square">
+   <li> <i>April 2020</i> - <a href="https://www.github.com/dppalomar/riskparity.py"><u>riskparityportfolio 0.2.0</u></a> has been released on PYPI!
+   <li> <i>January 2020</i> - I've given a <a href="https://speakerdeck.com/mirca/breaking-down-risk-parity-portfolios-a-practical-open-source-implementation">talk</a> on Risk Parity Portfolio at Credit Suisse as part of the Hong Kong Machine Learning meetup!
    <li> <i>October 2019</i> - <a href="https://www.github.com/dppalomar/spectralGraphTopology"><u>spectralGraphTopology 0.2.0</u></a> has been released on CRAN!
    <li> <i>October 2019</i> - <a href="https://www.github.com/dppalomar/riskParityPortfolio"><u>riskParityPortfolio 0.2.1</u></a> has been released on CRAN!
+   <li> <i>September 2019</i> - I've started my PhD in Computer Engineering at The Hong Kong University of Science
+   and Technology, under the supervision of Prof Daniel Palomar.
    <li> <i>September 2019</i> - Our paper on "Structured Graph Learning via Spectral Constraints" has been accepted to NeurIPS 2019!
    <li> <i>August 2019</i> - <a href="https://www.github.com/dppalomar/riskParityPortfolio"><u>riskParityPortfolio 0.2.0</u></a> has been released on CRAN!
    <li> <i>August 2019</i> - <a href="https://www.github.com/mirca/riskparity.py"><u>riskparity.py 0.1.0</u></a> has been released on PYPI!
