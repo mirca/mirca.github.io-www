@@ -17,8 +17,7 @@ My hack was pretty simple: make pretty pictures of Julia sets in Julia :)
 
 According to Wikipedia, a Julia set of a complex-valued entire function $$f$$, denoted
 as $$J(f)$$, is <i>the smallest closed set containing at least three points which is
-completely invariant under</i> $$f$$ (if you clearly understand what that means,
-please explain it to me bellow in the comments).
+completely invariant under</i> $$f$$.
 
 Julia sets can be used to create those pretty pictures (commonly known as fractals):
 <br>
