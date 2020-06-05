@@ -13,7 +13,7 @@ I've been contributing to.
 
 ### Financial Signal Processing
 * <a href="https://github.com/mirca/riskparity.py">riskparity.py</a>: A Python package
-for scalable risk parity portfolios using TensorFlow 2.0
+for scalable risk parity portfolios
 * <a href="https://github.com/dppalomar/riskParityPortfolio">riskParityPortfolio</a>:
 An R package for fast design of high dimensional risk parity portfolios
 
