@@ -42,8 +42,8 @@ titlecase: true
 # Site owner
 owner:
   name: Zé Vinícius
-  avatar: https://raw.githubusercontent.com/mirca/mirca.github.io/master/images/ze2.jpeg
-  bio: "PhD student in ECE working on Machine Learning and Financial Engineering at HKUST"
+  avatar: https://raw.githubusercontent.com/mirca/mirca.github.io/master/images/bio.jpeg
+  bio: "PhD student at HKUST working on Machine Learning and Financial Engineering"
   email: jvmirca@gmail.com
   disqus-shortname: mirca-1
   twitter: mircaze
@@ -53,7 +53,7 @@ owner:
   facebook: #username
   google:
     plus: #username
-    analytics:
+    analytics: UA-73593647-1
     verify:
     ad-client:
     ad-slot:
