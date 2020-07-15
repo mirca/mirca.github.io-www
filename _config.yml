@@ -42,7 +42,7 @@ titlecase: true
 # Site owner
 owner:
   name: Zé Vinícius
-  avatar: https://raw.githubusercontent.com/mirca/mirca.github.io/master/images/ze2.jpeg
+  avatar: https://raw.githubusercontent.com/mirca/mirca.github.io/master/images/profile.png
   bio: "PhD student at HKUST working on Graphical Models and Financial Engineering"
   email: jvmirca@gmail.com
   disqus-shortname: mirca-1
