@@ -15,7 +15,7 @@ include financial engineering and machine learning.
 
 <br><br>
 I graduated with a B.Eng in Electrical Engineering from the Federal University of
-Campina Grande, Brazil. Since my second semester in college, I was an undergraduate research
+Campina Grande, Brazil. From my second semester in college, I was an undergraduate research
 assistant at the <a href="https://www.iecom.org.br">Institute for Advanced Studies in Communications</a> mentored by
 <a href="https://scholar.google.com.br/citations?user=NBSmPdAAAAAJ&hl=en">Dr. Marcelo Alencar</a>
 and <u>Dr. Danilo Regis</u>.
@@ -25,8 +25,8 @@ and <u>Dr. Danilo Regis</u>.
 In 2014, I was awarded a <u>Brazilian Scientific Mobility Program scholarship</u> to study one year abroad
 in The Catholic University of America, Washington DC, USA. In that opportunity, I took a variety
 of classes among which my favorites were Stochastic Processes, Random Signal Theory, Information
-Theory, and Estimation and Detection Theory which are at the core of Machine Learning and
-Probabilistic algorithms.
+Theory, and Estimation and Detection Theory, which are at the core of Machine Learning and
+Probabilistic Algorithms.
 </p>
 
 <p style='text-align: justify;'>
@@ -34,11 +34,10 @@ In the Summer of 2015, I was an <u>undergraduate guest researcher</u> at the
 Nanofabrication Research Group,
 <a href="https://www.nist.gov/cnst">National Institute of Standards and Technology, USA</a>, under
 the mentorship of <a href="https://www.nist.gov/people/marcelo-davanco">Dr. Marcelo Davanço</a>.
-In that opportunity, I was able to apply the theory I learnt to implement routines in MATLAB for
-single molecule localization microscopy and fluorescense localization imaging microscopy.
+In that opportunity, I was able to apply the theory I learned in university to implement routines in MATLAB for
+single molecule and fluorescense localization microscopy.
 More precisely, I developed Maximum Likelihood Estimators (along with Fisher Information Matrices)
-to localize and measure the brightness of nanoemitters (aka Point Spread Function photometry in the
-astronomy community). This work was part of bigger projects which were later published
+to localize and measure the brightness of nanoemitters (quite similar to the task of estimating Point Spread Functions in astronomical images). This work was part of bigger projects which were later published
 in <a href="https://www.nature.com/articles/s41467-017-00987-6.pdf"><i>Nature Communications</i></a>
 and <a href="http://aip.scitation.org/doi/full/10.1063/1.4976578"><i>Review of Scientific Instruments</i></a>.
 </p>
@@ -65,8 +64,8 @@ photometry. I had the privilege to be mentored by
 
 <p style='text-align: justify;'>
 In 2017, I joined
-<a href="https://keplerscience.arc.nasa.gov">NASA's K2 Mission</a> as an intern
-at NASA Ames Research Center in Silicon Valley, USA. During my time at NASA, I worked on
+<a href="https://keplerscience.arc.nasa.gov">NASA's K2 Mission</a> as an scientific software engineer
+intern at NASA Ames Research Center in Silicon Valley, USA. During my time at NASA, I worked on
 <a href="https://www.github.com/KeplerGO">software development and scientific
 computing</a> problems under the mentorship of <a href="http://geert.io">Dr.
 Geert Barentsen</a>, <a href="http://gully.github.io">Dr. Michael Gully-Santiago</a>,
