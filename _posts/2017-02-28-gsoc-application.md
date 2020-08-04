@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Four steps before writing your GSoC application"
-excerpt: ""
+title: "Four steps before writing your Google Summer of Code application"
+excerpt: "Get your GSoC application sharp"
 modified: 2017-02-28
 tags: [gsoc, astropy, openastronomy]
 comments: true
@@ -15,7 +15,7 @@ Hi y'all!
 </p>
 
 <p style='text-align: justify;'>
-In this blog post I am going to briefly describe some important steps about student's applications to
+In this blog post, I'm going to briefly describe some important steps about student's applications to
 the Google Summer of Code program.
 </p>
 
