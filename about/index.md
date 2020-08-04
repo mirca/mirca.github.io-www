@@ -13,13 +13,9 @@ The Hong Kong University of Science and Technology (HKUST) with the Convex Group
 <a href="https://www.danielppalomar.com">Professor Daniel Palomar</a>.  My broad research interests
 include financial engineering and machine learning.
 
-<!--
 <br><br>
 I graduated with a B.Eng in Electrical Engineering from the Federal University of
-Campina Grande, Brazil. From my second semester in college, I was an undergraduate research
-assistant at the <a href="https://www.iecom.org.br">Institute for Advanced Studies in Communications</a> mentored by
-<a href="https://scholar.google.com.br/citations?user=NBSmPdAAAAAJ&hl=en">Dr. Marcelo Alencar</a>
-and <u>Dr. Danilo Regis</u>.
+Campina Grande, Brazil.
 </p>
 
 <p style='text-align: justify;'>
@@ -47,7 +43,7 @@ and <a href="http://aip.scitation.org/doi/full/10.1063/1.4976578"><i>Review of S
 In the Spring of 2016, I went back to school in Brazil and got an <u>undergraduate teaching assistant</u>
 scholarship for the course of <u>Probability and Statistics for Electrical Engineering and
 Computer Science</u>. Besides helping students understand basic concepts of probability theory
-during office hours, I also gave weekly lectures during which I solved exercises together with
+during office hours, I also delivered weekly lectures during which I solved exercises together with
 the students.
 </p>
 
@@ -73,9 +69,6 @@ Geert Barentsen</a>, <a href="http://gully.github.io">Dr. Michael Gully-Santiago
 <a href="https://christinasupportsscience.blogspot.com">Dr. Christina Hedges</a>,
 and <a href="http://annmariecody.com">Dr. Ann Marie Cody</a>.
 </p>
--->
-
-I enjoy being around astronomers:
 
 <p style='text-align: center;'>
 <img src="../images/yosemite.png" alt="Christina, Geert, Ruth, Gully, Ze. Pic by Dan F-M">
