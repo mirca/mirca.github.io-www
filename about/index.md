@@ -8,7 +8,7 @@ comments: false
 <p style='text-align: justify;'>
 Hi there, my name is <b>Zé Vinícius</b>!
 <br><br>
-I'm a first year PhD student in Electronic and Computer Engineering (ECE) at
+I'm a second year PhD student in Electronic and Computer Engineering (ECE) at
 The Hong Kong University of Science and Technology (HKUST) with the Convex Group.  My advisor is
 <a href="https://www.danielppalomar.com">Professor Daniel Palomar</a>.  My broad research interests
 include financial engineering and machine learning.
