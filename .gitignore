@@ -12,3 +12,6 @@ _asset_bundler_cache
 *.log
 yangxue_cv*
 _posts/ignore/
+*.fdb_latexmk
+*.fls
+*.synctex.gz
