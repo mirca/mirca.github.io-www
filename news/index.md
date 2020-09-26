@@ -10,6 +10,8 @@ image:
 ---
 
 <ul style="list-style-type:square">
+   <li> <i>September 2020 </i> - Our paper "Nonconvex Sparse Graph Learning under Laplacian-structured Graphical Model" has been
+   accepted to NeurIPS 2020!
    <li> <i>August 2020 </i> - Our paper <a href="https://arxiv.org/abs/2005.09958"><u>Learning Undirected Graphs in Financial Markets</u></a> has been accepted to the 54th Asilomar Conference on Signals, Systems, and Computers!
    <li> <i>June 2020</i> - Our paper <a href="https://arxiv.org/pdf/2006.14925.pdf"><u>Does the ℓ1-norm Learn a Sparse Graph under Laplacian Constrained Graphical Models?</u></a> has hit the arXiv!
    <li> <i>May 2020 </i> - Our paper <a href="https://arxiv.org/abs/2005.09958"><u>Learning Undirected Graphs in Financial Markets</u></a> has hit the arXiv!
