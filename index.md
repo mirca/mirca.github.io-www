@@ -1,9 +1,9 @@
 ---
 layout: home
 title: Zé Vinícius
-excerpt: "A minimal Jekyll theme for your blog by designer Michael Rose."
+excerpt: "zevini's website"
 tags: [Jekyll, theme, responsive, blog, template]
-image:
-  feature: tessninja.jpg
-  credit: Flatiron Institute, NYC.
+#image:
+  #feature: tessninja.jpg
+  #credit: Flatiron Institute, NYC.
 ---
